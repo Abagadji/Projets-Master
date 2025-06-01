@@ -1,0 +1,154 @@
+body{
+    background-color: #556B2F;
+	
+}
+
+
+
+header {
+    text-align: center;
+    border : solid white 1px;
+    padding-top : 1em;
+    padding-bottom : 1em;
+}
+
+
+
+.dédicace{
+text-align:left;
+}
+.index {
+    width: 10%;
+    float: left;
+    position: absolute;
+    background-color: grey;
+    top: 0%;
+    border-radius: 30px;
+    border: solid white 3px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+
+.num{
+    text-align: center;
+color: chocolate;
+}
+
+.texte_complet {
+font-family: arial;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+    background-color: #8B4513; /* SaddleBrown */
+	margin-top: 50px; /* pour que le texte_complet soit plus bas que le menu */
+	margin-left : 5%;
+	margin-right : 5%;
+	line-height : 200%;
+	
+}
+
+
+.q {
+    color : red;
+}
+
+.term {
+    color: rgb(0, 2, 128)
+}
+p{text-indent: 5%;}
+
+
+.menu {
+    height: 60px;
+    list-style: none;
+    padding: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement les éléments du menu */
+}
+
+.menu li {
+    width: 200px;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    background: #293245;
+    padding: 6px 10px;
+    border-right: 1px solid #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {background-color: #199BD2;}
+.menu li a:active {background-color: #808080;}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #808080;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+
+
+
+
+
+#btnScrollToTop {
+    display: none;
+    position: fixed;
+    /* CHANGEMENT: J'ai déplacé un peu le bouton */
+    bottom: 10px;
+    right: 10px;
+    /* CHANGEMENT: J'ai changé le padding */
+    padding: 0.25em;
+    color: #FFF;
+    /* CHANGEMENT: J'ai changé la couleur du fond en blanc */
+    background-color: white;
+    /* CHANGEMENT: J'ai arrondi les bordures du bouton */
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* CHANGEMENT: On définit une taille pour l'image à l'intérieur du bouton */
+#btnScrollToTop img {
+    width: 50px;
+    height: 50px;
+  }
+
+#btnScrollToTop:hover {
+  background-color: #199BD2;
+
+

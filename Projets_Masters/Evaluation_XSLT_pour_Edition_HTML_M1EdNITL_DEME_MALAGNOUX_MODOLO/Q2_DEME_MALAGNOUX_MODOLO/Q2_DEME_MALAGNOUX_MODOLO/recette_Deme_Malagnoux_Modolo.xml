@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recette SYSTEM "Marmiton_Deme_Malagnoux_Modolo.dtd">
+<recette>
+    <titre>GÂTEAU AU YAOURT</titre>
+    <image source="gateau.jpeg"/>  
+    <caractéristiques>
+        <durée_quantifiée type="totale">           
+            <quantification>
+                <quantité>45</quantité>
+                <unité_de_mesure>min</unité_de_mesure>
+            </quantification> 
+        </durée_quantifiée>
+        <degré_de_difficulté>Très facile</degré_de_difficulté>
+        <coût>Bon marché</coût>
+    </caractéristiques>
+    <ingrédients>
+        <ingrédient_quantifié>
+            <quantification>
+            <quantité>1/2</quantité>
+                <unité_de_mesure>paquet</unité_de_mesure>
+        </quantification>
+            <ingrédient> de levure chimique</ingrédient>
+        </ingrédient_quantifié>
+        <ingrédient_quantifié>
+            <quantification>
+                <quantité>1/2</quantité>
+                <unité_de_mesure>pot</unité_de_mesure>
+            </quantification>
+            <ingrédient>
+                d'huile de colza
+            </ingrédient>
+        </ingrédient_quantifié>
+       <ingrédient_quantifié>
+           <quantification>
+               <quantité>2</quantité>
+               <unité_de_mesure>pots</unité_de_mesure>
+           </quantification>
+           <ingrédient>de sucre semoule</ingrédient>
+       </ingrédient_quantifié> 
+        <ingrédient_quantifié>
+            <quantification>
+                <quantité>3</quantité>
+                <unité_de_mesure>pots</unité_de_mesure>
+               
+            </quantification>
+            <ingrédient>de farine</ingrédient>
+        </ingrédient_quantifié>
+        <ingrédient_quantifié>
+            <quantification>
+                <quantité>1</quantité>
+                <unité_de_mesure>zeste</unité_de_mesure>
+            </quantification>
+            <ingrédient>de citron jaune</ingrédient>
+        </ingrédient_quantifié>
+        <ingrédient_quantifié>
+            <quantification>
+                <quantité>1</quantité>
+                <unité_de_mesure>pot</unité_de_mesure>
+            </quantification>
+            <ingrédient>de yaourt nature</ingrédient>
+        </ingrédient_quantifié>
+        <ingrédient_quantifié>
+            <quantification>
+                <quantité>2</quantité>
+                
+            </quantification>
+            <ingrédient>oeufs</ingrédient>
+        </ingrédient_quantifié>
+        <ingrédient_quantifié>
+            <quantification>
+                <quantité>1</quantité>
+                
+            </quantification>
+            <ingrédient>Okay sans tube</ingrédient>
+        </ingrédient_quantifié>
+    </ingrédients>
+    
+    
+    <déroulé>
+        <titre>PRÉPARATION</titre>
+        <durées>
+            <durée_quantifiée type="totale">
+                <nom_d_étape>Temps total:</nom_d_étape>
+                <quantification>
+                    <quantité>45</quantité>
+                    <unité_de_mesure>min</unité_de_mesure>
+                </quantification>
+            </durée_quantifiée>
+            <durée_quantifiée type="préparation">
+                <nom_d_étape>Préparation:</nom_d_étape>
+                <quantification>
+                    <quantité>15</quantité>
+                    <unité_de_mesure>min</unité_de_mesure>
+                </quantification>
+            </durée_quantifiée>
+            <durée_quantifiée type="repos">
+                <nom_d_étape>Repos:</nom_d_étape>
+                <quantification>
+                    <quantité>-</quantité>
+                </quantification>
+            </durée_quantifiée>
+            <durée_quantifiée type="cuisson">
+                <nom_d_étape>Cuisson:</nom_d_étape>
+                <quantification>
+                    <quantité>30</quantité>
+                    <unité_de_mesure>min</unité_de_mesure>
+                </quantification>
+            </durée_quantifiée>
+        </durées>
+        
+        
+        <étapes>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>1</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="instruction">Préchauffer le four à 180°C (thermostat 6). Mélanger tout simplement les ingrédients un à un en suivant l'ordre suivant : levure,</consigne>
+            </étape>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>2</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="instruction">yaourt</consigne>
+            </étape>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>3</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="instruction">huile</consigne>
+            </étape>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>4</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="instruction">sucre</consigne>
+            </étape>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>5</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="instruction">farine</consigne>
+            </étape>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>6</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="instruction">oeuf et zeste</consigne>
+            </étape>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>7</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="instruction">Beurrer un moule à manqué et y verser la pâte.</consigne>
+            </étape>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>8</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="instruction">Enfourner pour environ 30 minutes de cuisson.</consigne>
+            </étape>
+            <étape>
+                <titre_d_étape>
+                    <introducteur>ÉTAPE</introducteur>
+                    <ordonnateur_d_étape>9</ordonnateur_d_étape>
+                </titre_d_étape>
+                <consigne type="astuce">Vérifier la cuisson avec la pointe d'un couteau (elle doit ressortir sèche).</consigne>
+            </étape>
+        </étapes>
+    </déroulé>
+</recette>

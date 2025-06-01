@@ -1,0 +1,158 @@
+
+
+.menu {
+  height: 60px;
+  list-style: none;
+  padding: 10px;
+  margin: 40px;
+  display: flex;
+  justify-content: center; /* Centrer horizontalement les éléments du menu */
+}
+
+.menu li {
+  width: 200px;
+}
+
+.menu li a:link, .menu li a:visited {
+  display: block;
+  color: #FFF;
+  background: #293245;
+  padding: 6px 10px;
+  border-right: 1px solid #FFF;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu li a:hover {background-color: #199BD2;}
+.menu li a:active {background-color: #808080;}
+
+.menu .sousmenu {
+  list-style-type: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+.menu .sousmenu li {
+  float: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #808080;
+}
+
+.menu .sousmenu li a:hover {
+  background-color: #199BD2;
+}
+
+.menu li:hover .sousmenu {
+  display: block;
+}
+
+.texte_complet {
+  font-family: arial;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+  background-color: #8B4513; /* SaddleBrown */
+	margin-top: 50px; /* pour que le texte_complet soit plus bas que le menu */
+	margin-left : 15%;
+	margin-right : 11%;
+	line-height : 200%;
+
+
+}
+.but{
+    position: fixed;
+    color: chocolate;
+
+}
+
+
+
+button{
+  color: chocolate;
+  background-color: black;
+}
+
+
+/*.texte_complet {
+font-family: arial;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+	background-color: black;
+	margin-left : 30%;
+	margin-right : 0%;
+	line-height : 200%;
+}*/
+
+body {
+  background-color: #556B2F;
+
+  /*font-family : TimesNewRoman;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+	background-color: black;
+	margin-left : 30%;
+	margin-right : 5%;*/
+}
+p {
+  text-indent: 1.5em;
+}
+header {
+    text-align: center;
+    border : solid white 1px;
+    padding-top : 1em;
+    padding-bottom : 1em;
+}
+.dédicace{
+text-align:left;
+}
+
+
+
+
+.chap{
+   text-align : center;
+    font-size : 25px;
+    font-weight : bold;
+    color: chocolate; 
+}
+.titre{
+  font-style: italic;
+}
+
+#btnScrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  padding: 0px;
+  background-color: rgb(210, 168, 30);
+  color: #FFF;
+  border: none;
+  cursor: n-resize;
+}
+
+.x {
+    opacity: 0;
+}
+
+#btnScrollToTop:hover {
+  background-color: #199BD2;

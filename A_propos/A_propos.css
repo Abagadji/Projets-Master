@@ -1,0 +1,121 @@
+.titre {
+    text-align: center;
+    border : solid white 1px;
+    padding-top : 1em;
+    padding-bottom : 1em;
+    font-size : 30px;
+}
+
+p{text-indent: 5%;}
+
+strong {
+  color: black;
+  font-weight: bold;
+}
+.Remerciements {
+    text-align: center;
+    border : solid white 1px;
+    padding-top : 1em;
+    padding-bottom : 1em;
+    font-size : 30px;
+}
+
+body {
+    background-color: #556B2F;
+
+
+  /*
+  	background-image : url(https://upload.wikimedia.org/wikipedia/commons/e/ed/Morris_Snakeshead_printed_textile_1876_v_2.jpg);
+    font-family : TimesNewRoman;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+	background-color: black;
+	margin-left : 30%;
+	margin-right : 5%;*/
+}
+
+
+.menu {
+    height: 60px;
+    list-style: none;
+    padding: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement les éléments du menu */
+}
+
+.menu li {
+    width: 200px;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    background: #293245;
+    padding: 6px 10px;
+    border-right: 1px solid #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {background-color: #199BD2;}
+.menu li a:active {background-color: #808080;}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #808080;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+.texte_complet {
+    font-family: Arial;
+    color: white;
+    padding: 4em;
+    text-align: justify;
+    position: relative;
+    border: solid white 3px;
+    background-color: #8B4513; /* SaddleBrown */
+    margin-left: 15%;
+    margin-right: 5%;
+    line-height: 200%;
+}
+
+
+.q {
+    color : red;
+}
+
+.term {
+    color: green
+}
+.x{
+    opacity: 0;
+}

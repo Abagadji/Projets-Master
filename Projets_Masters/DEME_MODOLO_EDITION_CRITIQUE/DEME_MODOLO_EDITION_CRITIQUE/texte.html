@@ -1,0 +1,466 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <title>Voyage de Jacques Lesaige</title>
+   <meta name="description" content="Édition critique du Voyage de Jacques lesaige par Mouhamadou Moustapha Deme et Pauline Modolo: ">
+   <link rel="stylesheet" href="JL_DEME_MODOLO.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+   <script src="ed-numerique.js"></script>
+</head>
+
+<body id="body">
+   <div class="circle-menu">
+        	<div class="circle">
+            	<a href="../../Projets_Master.html" class="menu-item">Liste de mes projets</a>
+        	</div>
+    	</div>
+   <nav id="nav-Menu">
+      <div>
+         <div class="topnav">
+            <a class="focus" href="#texte" onclick="location.href='texte.html';">Texte</a>
+            <a href="#image" onclick="location.href='images.html';">Scanns du texte</a>
+            <a href="#glossaire" onclick="location.href='glossaire.html'">Glossaire</a>
+            <a href="#criteres" onclick="location.href='criteres.html';">Critères de
+               transcription</a>
+
+            <a href="#aide" class="split" onclick="location.href='aide.html'">Aide</a>
+         </div>
+         <h2><i>Voyage</i> de Jacques Lesaige : Texte</h2>
+      </div>
+   </nav>
+   <div class="w3-row-padding" id="corps-home">
+      <div id="navbar">
+         <h3>Menu visualisation</h3>
+         <div class="w3-row" id="corps-nav">
+            <div id="nav-type-vis" class="w3-col l2 s4">
+               <a class="corpsButton" onclick="afficheDiplo();">Traduction</a>
+               <a class="corpsButton_focus" onclick="afficheLecture();">Version normalisée</a>
+
+
+            </div>
+            <div id="nav-lect" class="w3-rest">
+               <a id="pers" class=" corpsButton corpsButton-lect" onclick="sousligne_pers()">Noms propres</a>
+               <a id="lieux" class="corpsButton corpsButton-lect" onclick="sousligne_lieux()">Lieux</a>
+            </div>
+         </div>
+      </div>
+      <div class="w3-half" id="texte-lecture">
+         <span class="lect" style="font-size : xx-large ; padding-left : 18%;" id="debut-texte">Version
+            normalisée<br /></span>
+         <br /><br /> <br /> <br /> <br /> <br />
+         <span class="lect" style="margin : 350px;"> […] (P.iv.r)</span>
+         <br />
+         <span class="lect"> [l.7] Apr[é]s disner pour passer le tampz ay vollu escripre ung </span>
+         <br />
+         <span class="lect"> [l.8] petit de <a class="tooltip" onclick="Dictionnaire(this)" id="d9"><span id="9"><span
+                     class="lieu">Hierusalem</span></span><span class="tooltiptext" id="item9"> Jérusalem est une ville
+                  du Proche-Orient, qui
+                  tient une place centrale dans les trois religions monothéistes (juive,
+                  chrétienne, musulmane)</span></a>. Ch[’]est ung piti[é] comment elle a estee
+            des[-]</span>
+         <br />
+         <span class="lect"> [l.9] truicte et rattisi[é][.] On n[’]y voit quasy personne[,] sinon
+            que des</span>
+         <br />
+         <span class="lect"> [l.10] mores blans et noirs. Il y a labeur sur des maisons [;]
+            mes-</span>
+         <br />
+         <span class="lect"> [l.11] me j[’]ay veu des arbres et des orrengies et des vignes
+            crois[-]</span>
+         <br />
+         <span class="lect"> [l.12] sant sur lesdites maisons. On vat sur toutes les entires </span>
+         <br />
+         <span class="lect"> [l.13] aussy bien que sur les rues[,] car elles sont toutes de
+            pier-</span>
+         <br />
+         <span class="lect"> [l.14] res sans rien de bois[,] faicte a arcures et chimentees
+            dessus[.]</span>
+         <br />
+         <span class="lect"> [l.15] Et puis on y a port[é]s de la terre [!] Vela ou j[’]ay veu de
+            le bele</span>
+         <br />
+         <span class="lect"> [l.16] labeur [!] Je y ay veu une grande compaigne de verdz
+            coles</span>
+         <br />
+         <span class="lect"> [l.17] ou vers choulx aussy beau que en nostre pais. Le nuict
+            de-</span>
+         <br />
+        <span class="lect"> [l.18] vant ouismes tousjours chanter au temple de <a class="tooltip"
+              onclick="Dictionnaire(this)" id="d2"><span class="nom.propre.personnage" id="2">Salomon</span><span class="tooltiptext" id="item2">
+                 Salomon est le fils de
+                 David, constructeur du Temple de Jérusalem. Cet homme infidéle à la loi divine,
+                 est rendu responsable de la division du royaume d’Israël. </span></a>.
+         </span>
+
+         <br />
+         <span class="lect"> [l.19] Et veoit on bien a plain les lumieres quy estoient
+            dedens[,]</span>
+         <br />
+         <span class="lect"> [l.20] et par dehors[,] et y a a travers des portas escoperche ou
+            pen-</span>
+         <br />
+         <span class="lect"> [l.21] dent pluseurs lampes quy ardent toute la nuict[,] et devant </span>
+         <br />
+         <span class="lect"> [l.22] lesdis portas avoit plusieurs gens danssant[,] avec eulx
+            a-</span>
+         <br />
+         <span class="lect"> [l.23] voient ung bon instrument[,] quy jouoit plaisamment. Nous </span>
+         <br />
+         <span class="lect"> [l.24] ne dormismes guaire celleditte nuict[,] pour entendre leurs </span>
+         <br />
+         <span class="lect"> [l.25] voix. Je croy que ch[’]estoit le guet. De la grant clart[é]
+            qui y </span>
+         <br />
+         <span class="lect"> [l.26] estoit veoit on bien a[ ]plain le comble dudict temple[,]
+            lequel</span>
+         <br />
+         <span class="lect"> [l.27] est rondt et couvert de plomb. Je me teray pour chest
+            heu[-]</span>
+         <br />
+         <span class="lect"> [l.28] re[,] et voel parler d[’]aultres sainctz lieux. Au prime
+            vient</span>
+         <br />
+         <span class="lect"> [l.29] le bon[,] et pourtant entend[é]s[ ! ]</span>
+         <br />
+         <span class="lect" style="margin : 350px;"> [P.iv.r]</span>
+         <br />
+
+         <span class="lect"> [l.1] Apre[é]s avoir escript allasmes veoir le maison <a class="tooltip"
+               onclick="Dictionnaire(this)" id="d5"><span id="item5"><span
+                     class="nom.propre.personnage">Caÿf</span></span><span class="tooltiptext" id="def5"> Selon le
+                  Nouveau Testament, Caïphe est le souverain sacrificateur
+                  devant lequel Jésus est conduit après son arrestation (Matthieu 26:57).
+               </span></a>. El[-]</span>
+         <br />
+         <span class="lect"> [l.2] le est ass[é]s pr[é]s du departement des Apostles devant
+            dict[.]</span>
+         <br />
+         <span class="lect"> [l.3] Ladicte maison est maintenant une petite religion
+            d[’]aul-</span>
+         <br />
+         <span class="lect"> [l.4] cuns crestiens differens a nous[,] et ne scevent que c[’]est
+            de la[-]</span>
+         <br />
+         <span class="lect"> [l.5] tin. L[’]entree est basse[,] [q]uant on est dedens[,] a le
+            main senes[-]</span>
+         <br />
+         <span class="lect"> [l.6] tre est le lieu ou estoit le cuysine[,] ou <a class="tooltip"
+               onclick="Dictionnaire(this)" id="d3"><span id="3"><span class="nom.propre.personnage">Sai[n]ct
+                     Pierre</span></span><span class="tooltiptext" id="item3"> Saint Pierre après avoir été un disciple
+                  de
+                  Jésus, il devient l’un de ses apotres. Après la mort de Jésus, il devient de
+                  chef des apotres, et détient, selon la légende, les clés du ciel et l’enfer
+                  qu’ils auraient reçues de Jésus.</span></a> s[’]alla chauf[-] </span>
+         <br />
+         <span class="lect"> [l.7] fer. Au millieu de la court y a ung petit preau[,] et y a
+            ung</span>
+         <br />
+         <span class="lect"> [l.8] olivier[,] c[’]est le lieu ou <span class="nom.propre.personnage">Sainct
+               Pierre</span> dit a le femme[,] quy ne
+            co[-]</span>
+         <br />
+         <span class="lect"> [l.9] gnoissoit point Notre Saulveur. A le main dextre, veis
+            le</span>
+         <br />
+         <span class="lect"> [l.10] plaiche ou le coque chanta. Et tout pres est le lieu de le
+            fenes[-]</span>
+         <br />
+         <span class="lect"> [l.11] tre par ou Nostre Seigneur regarda ledict <span class="nom.propre.personnage">Sainct
+               Pierre</span>[,] de[-]</span>
+         <br />
+         <span class="lect"> [l.12] cost[é]s l[’]autel quy est maintenant ou lesdis religieux
+            disent</span>
+         <br />
+         <span class="lect"> [l.13] messe[,] a ung petit lien environ de quatre piedz en carrure
+            fort</span>
+         <br />
+         <span class="lect"> [l.14] emmurr[é]. C[’]est la lieu ou fut mis le Benoist Createur en
+            pri[-]</span>
+         <br />
+         <span class="lect"> [l.15] son[,] tant que les paillars eussent dormy. Hellas nous y
+            en[-]</span>
+         <br />
+         <span class="lect"> [l.16] trasmes nous trois [m]ais nous y estouffiesmes de
+            chault[.]</span>
+         <br />
+         <span class="lect"> [l.17] Le Bon Seigneur y estoit bien estroictement. Je y
+            avenoie</span>
+         <br />
+         <span class="lect"> [l.18] bien au coupelet de la vaussure. Le pierre de l[’]autel ou
+            les[-]</span>
+         <br />
+         <span class="lect"> [l.19] dis religieux dissent messe[,] c[’]est laditte[ ]pierre quy
+            faisoit </span>
+         <br />
+         <span class="lect"> [l.20] cloture au <a class="tooltip" onclick="Dictionnaire(this)" id="d10"><span
+                  id="10"><span class="lieu">Sainct Sepulcre</span></span><span class="tooltiptext" id="item10"> Le
+                  Saint-Sépulcre est selon la tradition
+                  chrétienne, le tombeau du Christ après sa mort sur la croix.</span></a> de
+            Nostre Seigneur[.] Elle a pr[é]s de </span>
+         <br />
+         <span class="lect"> [l.21] sept piedz de long[,] ou plus[,] et se a bien quatre piedz de
+            large[,] et</span>
+         <br />
+         <span class="lect"> [l.22] est forte espesse. Apr[é]s allasmes veoir ou l[’]<a class="tooltip"
+               onclick="Dictionnaire(this)" id="d6"><span id="6">agneau
+                  pascal</span><span class="tooltiptext" id="item6"> L'agneau pascal est un
+                  symbole religieux très présent dans les traditions juive et chrétienne. Il fait
+                  référence à l'agneau immolé lors de la Pâque juive.</span></a>
+         </span>
+         <br />
+         <span class="lect"> [l.23] fut roty[,] c[’]est tenant le chappelle du <a class="tooltip"
+               onclick="Dictionnaire(this)" id="d7"><span id="7"><span class="lieu">Mont de
+                     Syon</span></span><span class="tooltiptext" id="item7"> Le mont Sion est une
+                  des collines de Jérusalem, située au Sud-Ouest de la vieille ville. Le nom de
+                  Sion est souvent pris comme symbole de Jérusalem.</span></a>. Tout </span>
+         <br />
+         <span class="lect"> [l.24] pr[é]s est enterr[é]s <a class="tooltip" onclick="Dictionnaire(this)" id="d4"><span
+                  id="4"><span class="nom.propre.personnage">David</span></span><span class="tooltiptext" id="item4">
+                  David est une figure importante de la Bible en tant que troisième
+                  roi de la Monarchie unifiée d’Israël et Juda. Avec son fils Salomon, ils sont
+                  les fondateurs majeurs de l’État israélite.</span></a> et <span
+               class="nom.propre.personnage">Sallomon</span>. Apr[é]s allasmes</span>
+         <br />
+         <span class="lect"> [l.25] pour ouyr vespres des cordeliers[.] <a class="tooltip" onclick="Dictionnaire(this)"
+               id="d8"><span id="8">Le gardien de
+                  Beteleem</span><span class="tooltiptext" id="item8">La basilique de la Nativité
+                  à Bethléem est l’une des plus vieilles églises du monde et serait le lieu de
+                  naissance de Jésus de Nazareth </span></a> re[-]</span>
+         <br />
+         <span class="lect"> [l.26] cheut des lettres de mon compaghnon <span class="nom.propre.personnage">Jehan du
+               Bos</span>. Nous</span>
+         <br />
+         <span class="lect"> [l.27] luy priame quy nous confessas[,] che qu[,]il fit. Et
+            deschendant</span>
+         <br />
+         <span class="lect"> [l.28] de la chambre pour venir au cloistre trouvasme ung
+            puich</span>
+         <br />
+         <span class="lect"> [l.29] dudict couvent. Che fut ou l[’] eaue fut tiree pour laver les </span>
+         <br />
+         <span class="lect"> [l.30] piedz aux Sainctz Apostles tenant a ung trau dedens ung </span>
+         <br />
+         <span class="lect"> [l.31] mur[,] ou on voit ung coppon de le Saincte Coulombe[,] ou
+            Nostre </span>
+         <br />
+         <span class="lect"> [l.32] Seigneur fut battu[,] et est de le mesme grosseur qu[’]elle
+            estoit. Et</span>
+         <br />
+         <span class="lect" style="margin : 350px;"> [P.iv.v]</span>
+         <br />
+
+         <span class="lect"> [l.1] a environ de haulteur de piet et demy. Apr[é]s on nous
+            dict</span>
+         <br />
+         <span class="lect"> [l.2] que au piedt des degr[é]s du <span class="lieu">Mont de
+               Syon</span>[,] c[’]estoit le lieu ou </span>
+         <br />
+         <span class="lect"> [l.3] Nostre Dame faisoit son oraison. Apr[é]s que eusmes
+            ainssy</span>
+         <br />
+         <span class="lect"> [l.4] visit[é]s che que dict est[,] on nous dict que alissiesmes
+            trestous</span>
+         <br />
+         <span class="lect"> [l.5] souper. Et qu[’]apr[é]s priesmes tous a l[’]<span class="lieu">eglise du
+               Saint[-]Sepulcre</span>[.]</span>
+         <br />
+         <span class="lect"> [l.6] Environ six heure ou sept au vespre allasmes tous a[
+            ]l[’]en[-]</span>
+         <br />
+         <span class="lect"> [l.7] tree de la dicte sainte eglise[,] on nous compta[,] et puis
+            entras[-]</span>
+         <br />
+         <span class="lect"> [l.8] mes dedens[,] et puis on nous enfruma jusque a
+            lendemain</span>
+         <br />
+         <span class="lect"> [l.9] environ sept ou huit heure au matin[,] [d]ont quant
+            fusmes</span>
+         <br />
+         <span class="lect"> [l.10] environ vingt pi[é]s dedens ledite eglise[,] trouvasmes le
+            lieu </span>
+         <br />
+         <span class="lect"> [l.11] ou Notre Seigneur fut mis quant il fut destachi[é]s de la
+            croix</span>
+         <br />
+         <span class="lect"> [l.12] et que la <span class="nom.propre.personnage">Vierge
+               Marie</span> vollut avoir sur son geron[,] pour le</span>
+         <br />
+         <span class="lect"> [l.13] baisier[,] et fut la ou il fut ensepvely. Chascun y vollut
+            fai[-]</span>
+         <br />
+         <span class="lect"> [l.14] re son oraison. Mais les cordeliers nous firent lever. Et </span>
+         <br />
+         <span class="lect"> [l.15] nous menerent au boult de ladicte eglise en une
+            chappelle</span>
+         <br />
+         <span class="lect"> [l.16] ou on monte trois degr[é]s[,] et y a trois autelz[.] L[’]ung
+            des cor-</span>
+         <br />
+         <span class="lect"> [l.17] deliers fit un beau sermon[,] et nous dict[,] que l[’]autel
+            du mil-</span>
+         <br />
+         <span class="lect"> [l.18] lieu est le lieu ou Nostre Seigneur s[’]aparut a sa mere le
+            jour </span>
+         <br />
+         <span class="lect"> [l.19] de Pasque. L[’]autel a le main senestre est le lieu ou le
+            Saincte</span>
+         <br />
+         <span class="lect"> [l.20] Vraye Croix fut esprouvee[,] sur ung homme mort[,] et fut
+            resus-</span>
+         <br />
+         <span class="lect"> [l.21] sit[é]s[.] A l[’]autel a le main destre[,] il y a une pieche
+            de le Sainte</span>
+         <br />
+         <span class="lect"> [l.22] Coulombe de le mesme grosseur[,] et a bien deux pieds de
+            hault[.]</span>
+         <br />
+         <span class="lect"> [l.23] Apres que ledict cordelier eult faict son sermon[,]
+            chantas-</span>
+         <br />
+         <span class="lect"> [l.24] mes [«] Salve Regina [»] tous ensamble[,] [ ]Puis apr[é]s
+            deschen[-]</span>
+         <br />
+         <span class="lect"> [l.25] dus de ladicte chappelle environ a quatre piedz pres nous
+            de[-]</span>
+         <br />
+         <span class="lect"> [l.26] clara ledict cordelier[,] que ch[’]estoit le plaiche ou le
+            <span class="nom.propre.personnage">Magda</span>-</span>
+         <br />
+         <span class="lect"> [l.27] <span class="nom.propre.personnage">laine</span> estoit[,]
+            quant Nostre Seigneur s[’]aparut a elle [,] et puis</span>
+         <br />
+         <span class="lect"> [l.28] nous monstra le lieu[,] ou Nostre Seigneur estoit[,] [e]t y a
+            douze</span>
+         <br />
+         <span class="lect"> [l.29] piedz de [’]ung a l[’]autre. Apr[é]s on nous mena[,] ou
+            >Nostre Sei-</span>
+         <br />
+         <span class="lect"> [l.30] gneur fut mis tant que les villains eussent aprest[é] sa
+            croix</span>
+         <br />
+         <span class="lect"> [l.31] Et puis on nous mena ou <a class="tooltip" onclick="Dictionnaire(this)"
+               id="d1e8870"><span id="1"><span class="nom.propre.personnage">Saincte Helaine</span></span><span
+                  class="tooltiptext" id="item1"> Hélène, née vers 248/250 à Depranum et morte
+                  probablement le 18 août 330 à Nicomédie, est une impératrice romaine, concubine
+                  ou épouse de Constance Chlore et mère de Constantin Ier . Elle est considérée
+                  comme sainte par l'Église catholique et les Églises orthodoxes.</span></a> fit
+            son oraison</span>
+         <br />
+         <span class="lect" style="margin : 325px;"> Q.i.[r]</span>
+         <br />
+         <span class="lect"> [l.32] a Dieu[,] pour trouver ladicte croix[,] longtampz apr[é]s le
+            Re-</span>
+         <br />
+         <span class="lect"> [l.33] surrection[,] et deschent on plusieurs degr[é]s ou elle fu
+            trou-</span>
+         <br />
+         <span class="lect"> [l.34] vee.</span>
+         <br />
+
+
+      </div>
+
+      <div class="w3-half" id="texte-diplo" hidden="hidden">
+
+         <span class="diplo" style="padding: 35%; font-size : xx-large ;">Traduction<br /></span>
+         <br /> <br /> <br /> <br /> <br />
+         <p style="text-indent:35px;"><span class="diplo">Après avoir diné, pour passer le temps, j’ai voulu écrire un
+               peu sur
+               mon parcours à Jérusalem. Il est triste et éprouvant de savoir qu’elle a été détruite
+               et brûlée. On n’y voit quasiment personne, si ce n’est que des mûres blanches et
+               noires. Les maisons étaient toutes transformées et j’ai vu également des arbres, des
+               orangers et des vignes poussant sur ces maisons. On alla partout, sur toutes les
+               routes, car les maisons sont faites de pierre en forme d’arc et sont cimentées
+               au-dessus. De plus, on y a porté de la terre ! Voilà où j’ai vu du beau travail !
+               J’ai vu une grande campagne de couleur verte ou de vert choux qui était tout aussi
+               beau que notre pays. Avant la tombée de la nuit, nous entendîmes toujours chanter au
+               temple de Salomon. L’on y voyait bien les lumières qui étaient dedans et dehors, et
+               devant les portes, il y avait des perches où pendaient plusieurs lampes qui
+               éclairaient toute la nuit. Devant ces portes, plusieurs gens dansaient et jouaient
+               des instruments. Nous ne dormîmes pas cette nuit, pour entendre leur voix. Je crois
+               que c’était le guet. De la clarté qu’il y avait, on distinguait bien le comble du
+               temple, qui est rond et couvert de plomb. Je me terrai pour cette heure et je
+               voudrais parler d’autres lieux saints. Au tout début était le meilleur et pourtant
+               entendez !</span></p>
+
+         <p style="text-indent:35px;"><span class="diplo">Après avoir écrit, nous allâmes voir la maison de Caïphe. Elle
+               se
+               trouve tout près du département des Apôtres. Cette maison se trouve être maintenant
+               un lieu où chrétiens et non chrétiens peuvent loger. Lorsqu’on y entre, l’entrée de
+               la maison est basse et à gauche se trouvait la cuisine, lieu où Saint-Pierre se
+               chauffa. Au milieu de la cour, il y a un petit préau et un olivier, c’est le lieu où
+               Saint-pierre a dit à la femme qu’il ne connaissait pas Notre Sauveur. À droite, on y
+               voit la place où le coq chanta et à côté de la fenêtre, se trouve le lieu où notre
+               Seigneur regarda Saint-Pierre. À côté, il y a un autel qui est maintenant une église
+               où les religieux disent la messe, à un petit lieu environ un mètre entouré de murs.
+               C’est le lieu où le Béni Créateur fut mis en prison, pendant que les paillards
+               dormaient.</span></p>
+         <p style="text-indent:35px;"><span class="diplo">Hélas, lorsque nous y entrâmes tous les trois, mais nous
+               étouffâmes de chaud parce
+               que le Bon Seigneur y était à l’étroit. Je parvenais à toucher le plafond de la
+               prison. La pierre de l’autel où les prêtres font la messe clôturait le Saint Sépulcre
+               de Notre Seigneur. Elle mesure à peu près deux mètres de long ou plus et un mètre de
+               large d’une forte épaisseur. Après, nous allâmes voir le lieu où l’agneau Pascal fut
+               rôti, à la chapelle du Mont Sion. Tout près sont enterrés David et Salomon. Après,
+               nous allâmes écouter les vêpres des cordeliers. Le confesseur de Bethléem reçut les
+               lettres de mon compagnon Jean du Bos. Nous lui priâmes de nous confesser et c’est ce
+               qu’il fit. Et en descendant de la chambre pour venir au cloitre, nous trouvâmes un
+               puits dans ce couvant. C’est dans ce puits que fut tirée l’eau qui servit à laver les
+               pieds des Saints Apôtres se tenant près d’un trou du mur, où on voit une partie
+               coupée de la Sainte Colombe où Notre seigneur fut battu. </span></p>
+
+         <p style="text-indent:35px;"><span class="diplo">Après on nous dit qu'au pied des marches du Mont Sion, se
+               trouve le lieu où
+               Notre-Dame faisait son oraison. Après que nous eûmes visité ces lieux, on nous
+               proposa d’aller diner et d’aller, ensuite, tous prier à l’église du Saint-Sépulcre.
+               Vers six heures ou sept heures du soir, à l’heure des vêpres, nous allâmes tous à
+               l’entrée de la sainte église, avant d’y entrer, on nous compta et on nous enferma
+               jusqu’au lendemain vers sept heures ou huit heures du matin. Lorsque nous étions à
+               environ six mètres à l’intérieur de l’église, nous trouvâmes le lieu où notre
+               Seigneur fut mis quand il fut détaché de sa croix et que la Vierge Marie voulut avoir
+               sur son giron pour le baiser et c’est à ce lieu que Notre seigneur fut enseveli.
+               Chacun de nous voulut faire son oraison, hélas, les cordeliers nous firent lever et
+               nous menèrent tout au fond de l’église dans une chapelle où il fallait monter trois
+               marches d’escalier et à ce lieu se trouvaient trois autels. L’un des cordeliers fit
+               un beau sermon, et nous dit que l’autel du milieu est le lieu où notre Seigneur
+               apparut à la Vierge Marie le jour de Pâques. L’autel de gauche est le lieu où la
+               Sainte Vraie Croix fut éprouvée et ressuscitée. À l’autel de droite, nous y trouvons
+               une pièce de la Sainte Colombe de la même grosseur avec une hauteur de cinquante
+               centimètres. Après que le cordelier eut fait son sermon, nous chantâmes la « salve
+               Regina » tous ensemble. Ensuite nous descendîmes de la chapelle environ un mètre et
+               le cordelier nous déclara que c’était la place où la Madeleine était, quand Notre
+               seigneur apparut devant elle. Puis nous montra le lieu, où Notre Seigneur était,
+               entre ces deux lieux se trouve trois mètres. Après on nous mena, où Notre Seigneur
+               fut mis tant que les paysans eurent préparé sa croix et puis on nous mena où Sainte
+               Hélène fit son oraison à Dieu, pour trouver la croix, longtemps après la résurrection
+               et descendons plusieurs marches où elle fut trouvée. </span></p>
+
+
+      </div>
+
+      <div class="w3-quarter" id="colonne-mots">
+         <button id="nettoye-listes" onclick="nettoye_listes()">Effacer les listes</button>
+         <div id="div-listes"> </div>
+         <br />
+
+      </div>
+   </div>
+   <footer>
+      <b>Credits :</b> cette édition critique numérique a été crée lors d'un projet d'Édition
+      critique de Master 2 à l'Université de Lille (mention Édition numérique et imprimée de
+      textes littéraires) - par Pauline Modolo et Mouhamadou Moustapha Deme, sous la direction de
+      Matthieu Marchal. Le texte édité est un extrait du récit <i>Voyage </i> de Jacques Lesaige
+      sur la base de la première relation, imprimée en 1523 (à partir du témoin suivant : Lille,
+      BM, 10455-Réserve).
+   <p>© Mouhamadou Moustapha Deme et Pauline Modolo, 2025.<br>
+      Ce travail est protégé par une licence <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons Attribution - NonCommercial - NoDerivatives 4.0 International License</a>.
+   </p>   
+      
+   </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,297 @@
+
+
+
+
+/*body {
+    background-color: chocolate;
+    background-image: url("fond.png");
+    background-size: 50%;
+
+background-position:initial, center;
+
+background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font: 12px Arial;
+}
+ 
+.name{
+text-align: center;
+}
+.texte {
+    width: 50%;
+    float: right;
+    position: relative;  /
+    font-family: Arial;
+    padding: 4em;
+    text-align: justify;
+    border: solid #808080 3px;
+    background-color: chocolate;
+    margin-top: 30px;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+
+
+.menu {
+    height: 60px;
+    list-style: none;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    justify-content:right 
+}/
+
+.menu li {
+    width: 190px;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    background: #293245;
+    padding: 6px 10px;
+    border-right: 1px solid #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {background-color: #199BD2;}
+.menu li a:active {background-color: #808080;}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #808080;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+    
+*/
+
+
+.linkedin-fixed {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    z-index: 1000;
+  }
+  
+  .linkedin-fixed img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 0 2px black);
+    transition: transform 0.2s ease;
+  }
+  
+  .linkedin-fixed img:hover {
+    transform: scale(1.2);
+  }
+  
+ /*body {
+    background-color: #556B2F;
+    background-image: url("fond.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;           /* ← ceci est le coupable 
+    align-items: center;     ← et ça 
+    flex-direction: column;  ça aussi
+}
+
+/* ✅ Garde l’image de fond bien affichée */
+/* ✅ Fond avec image centrée */
+body {
+    background-color: #556B2F;
+    background-image: url("fond.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+  }
+  
+
+/* ✅ MENU à gauche */
+.menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    width: 250px; /* Réduit la largeur du menu */
+    position: absolute; /* Fixe le menu à gauche */
+    left: 10px;
+    top: 20px;
+    background-color: #293245; /* Couleur du menu */
+    border-radius: 10px;
+}
+
+/* Style des liens du menu */
+.menu li {
+    width: 100%;
+    position: relative; /* Nécessaire pour les sous-menus */
+}
+
+.menu li a {
+    display: block;
+    color: #FFF;
+    background: #293245;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background-color: #199BD2;
+}
+
+/* Premier niveau de sous-menu (vertical) */
+.menu .sousmenu.level1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Caché par défaut */
+}
+
+.menu li:hover > .sousmenu.level1 {
+    display: block; /* S'affiche et pousse le contenu suivant vers le bas */
+}
+
+/* Style des éléments du premier niveau de sous-menu */
+.menu .sousmenu.level1 li {
+    width: 100%;
+    position: relative;
+}
+
+/* Deuxième niveau de sous-menu (pour Glossaire) affiché horizontalement */
+.menu .sousmenu.level2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Caché par défaut */
+    position: absolute; /* Pour l'affichage en popup */
+    top: 0;  /* Aligne verticalement avec le parent */
+    left: 100%; /* Affiché à droite du parent */
+    background-color: #808080;
+    width: 200px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.menu .sousmenu.level1 li:hover > .sousmenu.level2 {
+    display: block;
+}
+
+/* Style commun pour tous les sous-menus */
+.menu .sousmenu li a {
+    display: block;
+    color: #FFF;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #808080;
+    text-align: left;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+.menu > li > a.has-submenu::after {
+    content: " \25BC"; /* Code Unicode pour une flèche vers le bas */
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #FFF;
+}
+
+/* ✅ TEXTE bien positionné */
+.texte {
+    width: 17%; /* Réduit la largeur pour un format vertical */
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    position: absolute;
+    top: 0; /* Aligne le cadre en haut */
+    right: 0; /* Aligne le cadre à droite */
+    font-family: Arial, sans-serif;
+    padding: 1em;
+    text-align: left; /* Texte aligné à gauche dans le cadre */
+    background-color: rgba(85, 107, 47, 0.9); /* Fond légèrement transparent */
+    overflow-y: auto; /* Permet de scroller si le contenu dépasse */
+}
+
+
+
+  
+
+  
+
+/* ✅ MOBILE : Ajustements */
+@media screen and (max-width: 768px) {
+    body {
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texte {
+        width: 80%; /* ✅ Largeur ajustée */
+        max-width: 320px; /* ✅ Pour éviter qu'il soit trop large */
+        position: fixed; /* ✅ Fixé en bas */
+        top: 450px;
+        bottom: 10px; /* ✅ Juste au bord de l’écran */
+        left: 50%;
+        transform: translateX(-50%); /* ✅ Centré horizontalement */
+        padding: 1em;
+        text-align: center;
+        background-color: rgba(210, 105, 30, 0.9);
+        border: solid #808080 3px;
+        border-radius: 10px; /* ✅ Coins arrondis */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        
+        /* ✅ Hauteur ajustée pour ne pas prendre tout l'écran */
+        max-height: 150px; 
+        overflow: auto; /* ✅ Ajoute un scroll si besoin */
+    }
+
+    .menu {
+        width: 200px;
+        position: static; /* Ne pas le fixer en haut */
+        margin: 10px;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu .sousmenu {
+        position: static;
+        width: 100%;
+    }
+
+
+}
+

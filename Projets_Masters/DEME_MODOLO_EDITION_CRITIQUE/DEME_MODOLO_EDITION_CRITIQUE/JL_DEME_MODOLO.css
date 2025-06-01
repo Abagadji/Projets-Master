@@ -1,0 +1,605 @@
+body{
+  background-color: #709CA7;
+}
+
+
+
+
+.circle-menu {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: 55%; /* Aligne le menu à droite */
+    align-items: center;
+    padding-right: 20px; /* Ajoute un peu d'espace à droite */
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+    transition: background-color 0.3s, transform 0.2s; /* Ajoute une transition pour les effets de survol */
+                position: relative; /* Position relative pour le cercle */
+                 left: 44%; /* Décale le cercle en fonction du pourcentage */
+            transform: translateX(-50%); /* Centre le cercle par rapport à la position */
+
+    margin-left: 200px; /* Décale le menu de 100px vers la gauche */
+
+}
+
+.circle:hover {
+    background-color: #555; /* Change la couleur de fond au survol */
+    transform: translateX(-50%) scale(1.1); /* Conserve le centrage lors du survol */
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+article {
+		display: block; 
+		
+		 background-color: lightgrey;
+		width: auto;
+		border: 15px solid #344D59;
+		padding: 50px;
+		margin: 20px;
+}
+
+h1{
+  color:rgb(70, 95, 59);
+  text-align: center;
+  font-weight: bold;
+  border: 5px solid #344D59;
+background-color: #B8CBD0;
+}
+
+/*Texte transcrit */
+h2{
+  /*color:rgb(150, 167, 79);*/
+  color : #137C8B;
+ /* font-family : Georgia;*/
+}
+td{
+  
+  
+  padding : 30pt;
+border : 2pt solid  #137C8B;
+  
+}
+/*Deux premiers bloc qui permettent de naviguer d'une page à une autre*/
+nav {
+  display: flex;
+	/*display: block; */
+	border: 5px solid #137C8B ; 
+	border-radius : 50px;
+	margin: 20px; 
+	width: auto; 
+	padding: 20px; 
+  position : sticky;
+  background-color: #B8CBD0;
+}
+
+/*Premier menu texte transcrit etc*/
+.menuButton{
+  border: 5px solid #168556; 
+	/*margin: 5px; */
+	width: auto; 
+  height: 100%;
+	/*padding: 5px; */
+  text-align: center;
+}
+
+#pageAide{
+  border: 5px solid rgb(167, 79, 79);
+}
+
+#Credits{
+  border-left: 5px solid #168556;
+}
+
+#Menu{
+  border-left: 5px solid #168556;
+   background-color: #F3EBD5;
+   color :   #168556;
+   
+}
+
+#criteres {
+   margin : 30pt;
+  border : 3pt solid #344D59;
+  border-radius : 20px;
+  text-align: justify;
+  border-radius : 20px;
+  background-color: #B8CBD0;
+}
+   
+
+
+/*Deuxieme bloc de nav*/
+#navbar > h3 {
+  margin-left : 1%;
+  color : #344D59;
+}
+
+.corpsButton{
+  border: 5px solid #137C8B; 
+	margin: 5px; 
+	width: auto; 
+  height: 100%;
+	padding: 5px;
+}
+
+.corpsButton_focus{
+  border: 5px solid #137C8B; 
+	margin: 5px; 
+	width: auto; 
+  height: 100%;
+	padding: 5px;
+  
+}
+
+.corpsButton:hover,
+.corpsButton_focus:hover {
+    border: 5px solid #137C8B; 
+  background-color: #ddd;      /* même gris clair que dans .topnav a:hover */
+  color: #344D59;              /* même couleur de texte au survol */
+  cursor: pointer;             /* main “cliquer” */
+}
+
+#navbar a:hover {
+    border: 5px solid #137C8B; 
+  background-color: #ddd;
+  color: #344D59;
+  cursor: pointer;
+}
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  
+}
+
+.tooltiptext {
+  position: fixed;
+  top: 50%;
+  left: calc(100% - 900px); /* décalé plus loin à droite */
+  transform: translateY(-50%);
+  width: 300px;
+  background-color: #fefefe;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+#glossaire-p {
+    font-family: arial, sans-serif;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    color : white;
+    font-size: 110%;
+    float: left;
+    position: fixed;
+    padding: 0%;
+    margin: 0%;
+    width: 16%;
+    list-style-type: none;
+    background: rgba(184, 203, 208, 0.582);
+    border-radius : 50px;
+    border-right: 1px solid #cccccc;
+    height: 100%;
+    text-align: center;
+    
+}
+.note-affiche 
+{
+ background-color : #166151;   
+ border-radius: 10px;
+ margin-left: 10%;
+ margin-right: 10%;
+}
+#texte-lecture{
+    margin-left: 10%;
+  width: 67%;
+  padding-left: 15%;
+  background-color: #ECF8F6;
+  color : black;
+ border: 5px solid #344D59;
+   font-family : arial;
+   text-align : justify;
+   font-size : medium;
+}
+
+#texte-diplo{
+  margin-left: 10%;
+  width: 67%;
+  padding-left: 5%;
+  background-color: #ECF8F6;
+  color : black;
+ border: 5px solid #344D59;
+ font-family :  arial;
+  text-align : justify;
+  font-size : medium;
+}
+
+
+/* colonne pour les termes */
+
+#colonne-mots {
+  width : 13%;
+  
+}
+
+
+#div-listes > ul, #div-listes > h3 {
+  background-color: #7A90A4;
+  color : #344D59;
+  border : 2pt dotted #709CA7;
+  font-size : small;
+  
+}
+
+#div-listes > h2 {
+  background-color: #7A90A4;
+  color :#344D59;
+  font-size : large;
+  border : 2pt dotted #709CA7;
+  
+}
+
+.page-dactylographie{
+  margin-left: 35%;
+}
+
+
+
+
+span.diplo > .manuscrit {
+    font-family :Zapf-Chancery, cursive;
+}
+
+#titre-glossaire-din{
+  color : white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+
+}
+
+img{
+  position: relative;
+margin : 10pt;
+  width: 100%;
+  
+}
+
+
+.aide{
+  margin : 50pt;
+   border : 3pt solid #344D59;
+  border-radius : 20px;
+  padding-left : 20%;
+  padding-right: 20%;
+  text-align: justify;
+  background-color: #B8CBD0;
+}
+
+#page-glossaire{
+  margin : 30pt;
+  border : 3pt solid #344D59;
+  border-radius : 20px;
+  text-align: justify;
+  background-color: #B8CBD0;
+  
+}
+
+#intro-glossaire, #glossaire, #glossaire-polylex{
+  padding-left : 20%;
+  padding-right: 20%;
+  background-color: #B8CBD0;
+}
+
+.liste-principale{
+  font-weight: bold;
+  color :#344D59;
+  padding : 30pt;
+  
+}
+
+#metadonnees{
+ margin : 70pt;
+  border : 3pt solid #344D59;
+  border-radius : 20px;
+  text-align: justify;
+  padding : 30pt;
+  background-color: #B8CBD0;
+}
+
+.liste-seconde{
+  font-weight: normal;
+  color :black;
+  padding-left :20%;
+  padding-right :20%;
+ 
+}
+
+.liste-troisieme{
+  font-weight: normal;
+  color :black;
+  padding-left :10%;
+  padding-right :10%;
+  
+}
+
+.liste-principale > li {
+  border : 2pt solid #7A90A4;
+  
+  padding: 3%;
+}
+
+#entrees{
+  margin : 2%;
+  border : 3pt dotted #7A90A4;
+  padding-left : 10%;
+  padding-right : 10%;
+  padding-top : 2%
+}
+
+.remarques{
+  border : 3pt dotted rgb(167, 79, 79);
+  padding : 3%;
+  margin : 2%;
+}
+
+.remarques > h3 {
+  color :rgb(167, 79, 79);
+}
+
+.remarque{
+  margin-top: 2%;
+}
+
+
+.forme-entree{
+  margin : 10pt;
+  border : 2pt solid rgb(70, 95, 59);
+  padding : 10pt;
+}
+
+.indicationFeuillet{
+  text-align: right;
+  color : rgb(70, 95, 59);
+}
+
+.item-glossaire{
+  margin:2%;
+  border-top: 2pt solid  #137C8B;
+
+}
+
+.item-polylex{
+  text-decoration : underline;
+}
+.item-lp {
+    font-weight: bold;
+}
+.numero{
+  font-weight: bold;
+}
+
+.occurrence{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.cat-gramm{
+  color : darkblue;
+}
+
+.ref{
+  color : darkslategray;
+}
+
+
+#abreviations h3{
+  font-size: medium;
+  font-weight: bold;
+  color :red;
+}
+
+#nav-glossaire{
+  position : sticky;
+  background-color : red;
+ 
+}
+
+/*Visulation des notes en fin de page*/
+.historique{
+  color: black;
+  background-color: #F3EBD5;
+  font-size: small;
+  
+}
+
+
+#abrev_cat-gramm{
+  margin-left: 35%;
+}
+
+
+/* État normal : on met la même bordure que dans le hover */
+#pers,
+#lieux {
+  background-color: #D46A6A;  /* ou #407F7F pour #lieux */
+  border: 5px solid #137C8B;   /* 5px au lieu de 1px */
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 6px;          /* si tu veux aussi un arrondi */
+  box-sizing: border-box;      /* pour inclure la bordure dans la taille */
+}
+
+/* Survol : seule la couleur change, la bordure reste à 5px */
+#pers:hover,
+#lieux:hover {
+  background-color: #ddd;
+  color: #344D59;
+  cursor: pointer;
+  /* pas besoin de redéfinir border ici, elle est déjà de 5px */
+}
+
+
+
+#langues, #aff, #cache, #deuxieme-moitie, #premiere-moitie{
+  border: 1px solid #168556;
+  color : black;
+  background-color: #F3EBD5;
+}
+
+/*FOOTER*/
+
+#index-footer{
+  margin-left: 17%;
+  margin-top: 3%;
+  width: 82%;
+  background-color: #344D59;
+  color : #ECF8F6;
+  border: 1px solid #B8CBD0;
+  padding : 3pt;
+  font-family : arial;
+}
+
+footer{
+  margin-top: 3%;
+  width: 100%;
+  background-color: #344D59;
+  color : #ECF8F6;
+  border: 1px solid #B8CBD0;
+  padding : 3pt;
+  
+  font-family : arial;
+}
+
+
+/*MENU*/
+
+/* Create a top navigation bar with a black background color  */
+.topnav {
+  background-color: #B8CBD0;
+  border : 2pt solid #344D59;
+  overflow: hidden;
+}
+
+.focus {
+  font-weight: bold;
+  /*background-color: rgb(70, 95, 59);*/
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #344D59;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right : 2pt solid #344D59;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #344D59;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color:#B8CBD0;
+  border-left : 2pt solid #344D59;
+  
+  color:  #344D59;
+}
+
+.topnav .focus-split{
+  float: right;
+  background-color:#B8CBD0;
+  border-left : 2pt solid #344D59;
+  color:  #344D59;
+  font-weight: bold;
+}
+
+/*MENU 2*/
+  Style the navbar 
+ #navbar {
+  overflow: hidden;
+  background-color: rgba(184, 203, 208, 0.582);
+  border-radius:20px;
+  color : #ECF8F6;
+ 
+  z-index: 10; /*ajouté pour s'assurer que aucun mot du texte se chevauche aux bouttons*/
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black; /*#f2f2f2;*/
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
+
