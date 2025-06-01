@@ -1,0 +1,42 @@
+body {font-family: 'Papyrus';
+      font-size: 22px; }
+
+h1,h2 {font-family: 'Papyrus';
+            font-size: 22px;}
+
+.linkedin-fixed {
+    position: fixed;
+    bottom: 15px;
+    right: 55px;
+    z-index: 1000;
+}
+
+.linkedin-fixed img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 0 2px black);
+    transition: transform 0.2s ease;
+}
+
+.linkedin-fixed img:hover {
+    transform: scale(1.2);
+}
+
+.contact-fixed {
+    position: fixed;
+    bottom: 15px;
+    right: 15px; /* Positionne l'icône de contact à droite */
+    z-index: 1000;
+}
+
+.contact-fixed img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 0 2px black);
+    transition: transform 0.2s ease;
+}
+
+.contact-fixed img:hover {
+    transform: scale(1.2);
+}
+
