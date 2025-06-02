@@ -60,7 +60,7 @@ text-indent: 3em;}
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #e6c7c7; /* Optionnel : ajoute un fond au footer */
+    background-color: #efe3e3; /* Optionnel : ajoute un fond au footer */
     margin-top: 20px; /* Ajoute une marge en haut du footer pour le séparer du contenu */
 }
 
