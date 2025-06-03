@@ -155,4 +155,55 @@ text-align:left;
 }
 
 #btnScrollToTop:hover {
-  background-color: #199BD2;
+  background-color: #199BD2;}
+  @media (max-width: 767px) {
+  body {
+    font-size: 16px;
+    hyphens: auto;
+    word-break: break-word;
+    margin: 0;
+    padding: 0;
+  }
+
+  .texte_complet {
+    text-align: left !important; /* Supprime justification */
+    font-size: 16px;
+    padding: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.6;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .menu li {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  p {
+    text-indent: 1em;
+  }
+
+  header {
+    font-size: 18px;
+    padding: 1em 0;
+  }
+
+  #btnScrollToTop {
+    right: 10px;
+    bottom: 10px;
+    padding: 0.5em;
+    border-radius: 50%;
+  }
+
+  #btnScrollToTop img {
+    width: 40px;
+    height: 40px;
+  }
+}

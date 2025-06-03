@@ -152,3 +152,56 @@ p{text-indent: 5%;}
   background-color: #199BD2;
 
 
+}
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+        hyphens: auto;
+        word-break: break-word;
+        margin: 0;
+        padding: 0;
+    }
+
+    .texte_complet {
+        text-align: left !important;   /* Supprime les gros espaces entre mots */
+        font-size: 16px;
+        padding: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 1.6;
+    }
+
+    .index {
+        position: static;
+        width: auto;
+        float: none;
+        margin: 1em auto;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .menu li {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    header {
+        font-size: 18px;
+        padding: 1em 0;
+    }
+
+    p {
+        text-indent: 2em;
+    }
+
+    #btnScrollToTop img {
+        width: 40px;
+        height: 40px;
+    }
+}

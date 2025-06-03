@@ -1,8 +1,8 @@
 body {
     position: relative;
-    text-align: justify; /* Justifie le texte */
-    margin: 0;
-    padding: 0;
+hyphens: auto;
+    margin: 20px;
+    padding: 20px;
     background-color: #fdf7e3;  /* Fond beige papier */
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
@@ -80,4 +80,19 @@ footer {
 
 .linkedin-icon img:hover, .contact-icon img:hover {
     transform: scale(1.2);
+}
+
+
+@media (max-width: 767px) {
+    body {
+        text-align: left !important;      /* Supprime la justification */
+        font-size: 18px;                  /* Réduit un peu la taille de police */
+        line-height: 1.5;                 /* Meilleure lisibilité */
+        hyphens: auto;
+        word-break: break-word;
+    }
+
+    p {
+        text-indent: 2em; /* Légèrement moins d'indentation sur mobile */
+    }
 }
