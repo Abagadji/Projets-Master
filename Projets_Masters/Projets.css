@@ -39,7 +39,7 @@ text-indent: 3em;}
     position: absolute;
     font-family: Consolas, "Lucida Console", Monaco, monospace;
     font-weight: bold;
-    color: #666;
+    color: #fc0808;
     opacity: 0.06; /* Un peu plus discret vu que le texte est plus dense */
     white-space: nowrap;
     user-select: none; /* Ne permet pas de sélectionner le texte décoratif */
@@ -64,6 +64,10 @@ footer {
     margin-top: 20px; /* Ajoute une marge en haut du footer pour le séparer du contenu */
 }
 
+footer > div:first-child {
+    margin-bottom: 20px; /* Ajoute de l'espace en dessous du premier div */
+}
+
 .footer-content {
     display: flex;
     justify-content: center;
@@ -71,14 +75,23 @@ footer {
     gap: 10px; /* Espace entre les éléments */
 }
 
-.linkedin-icon img, .contact-icon img {
+.linkedin-fixed, .github-fixed, .contact-fixed {
+    display: inline-block; /* Permet aux divs de s'afficher en ligne */
+    margin-right: 15px; /* Ajoute de l'espace à droite de chaque div sauf la dernière */
+}
+
+.linkedin-fixed:last-child, .github-fixed:last-child, .contact-fixed:last-child {
+    margin-right: 0; /* Supprime la marge à droite pour le dernier élément */
+}
+
+.linkedin-fixed img, .github-fixed img, .contact-fixed img {
     width: 32px;
     height: 32px;
     filter: drop-shadow(0 0 2px black);
     transition: transform 0.2s ease;
 }
 
-.linkedin-icon img:hover, .contact-icon img:hover {
+.linkedin-fixed img:hover, .github-fixed img:hover, .contact-fixed img:hover {
     transform: scale(1.2);
 }
 

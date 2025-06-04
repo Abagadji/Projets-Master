@@ -105,6 +105,10 @@ font-family: arial;
     opacity: 0;
 }
 
+
+
+
+
 @media (max-width: 767px) {
   body {
     font-size: 16px;
