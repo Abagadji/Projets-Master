@@ -107,6 +107,43 @@ font-family: arial;
 
 
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #556B2F; /* Optionnel : ajoute un fond au footer */
+    margin-top: 20px; /* Ajoute une marge en haut du footer pour le séparer du contenu */
+}
+
+footer > div:first-child {
+    margin-bottom: 20px; /* Ajoute de l'espace en dessous du premier div */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espace entre les éléments */
+}
+
+.linkedin-fixed, .github-fixed, .contact-fixed {
+    display: inline-block; /* Permet aux divs de s'afficher en ligne */
+    margin-right: 15px; /* Ajoute de l'espace à droite de chaque div sauf la dernière */
+}
+
+.linkedin-fixed:last-child, .github-fixed:last-child, .contact-fixed:last-child {
+    margin-right: 0; /* Supprime la marge à droite pour le dernier élément */
+}
+
+.linkedin-fixed img, .github-fixed img, .contact-fixed img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 0 2px black);
+    transition: transform 0.2s ease;
+}
+
+.linkedin-fixed img:hover, .github-fixed img:hover, .contact-fixed img:hover {
+    transform: scale(1.2);
+}
 
 
 @media (max-width: 767px) {

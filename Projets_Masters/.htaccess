@@ -1,3 +1,26 @@
 # Spécifie le fichier à utiliser comme page d'accueil
 DirectoryIndex Projets_Master.html
 
+# Active le moteur de réécriture
+# RewriteEngine On
+
+
+
+
+
+
+
+RewriteEngine On
+
+# Masquer le chemin complet derrière une URL simple
+#RewriteRule ^XML_vers_HTML_DEME_MALAGNOUX_DEME_orig\.html$ DEVOIR_ÉDITION_NUMÉRIQUE_DEME_MALAGNOUX_MODOLO/Q3_DEME_MALAGNOUX_MODOLO/XML_vers_HTML_DEME_MALAGNOUX_DEME_orig.html [L]
+
+
+# Masquer le chemin complet derrière une URL simple
+#RewriteRule ^XML_vers_HTML_DEME_MALAGNOUX_DEME_reg\.html$ DEVOIR_ÉDITION_NUMÉRIQUE_DEME_MALAGNOUX_MODOLO/Q3_DEME_MALAGNOUX_MODOLO/XML_vers_HTML_DEME_MALAGNOUX_DEME_reg.html [L]
+
+
+
+
+
+
