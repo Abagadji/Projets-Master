@@ -1,0 +1,246 @@
+body{
+    background-color: #556B2F;
+	
+}
+
+
+
+header {
+    text-align: center;
+    border : solid white 1px;
+    padding-top : 1em;
+    padding-bottom : 1em;
+}
+
+
+
+.dédicace{
+text-align:left;
+}
+.index {
+    width: 10%;
+    float: left;
+    position: absolute;
+    background-color: grey;
+    top: 0%;
+    border-radius: 30px;
+    border: solid white 3px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+
+.num{
+    text-align: center;
+color: chocolate;
+}
+
+.texte_complet {
+font-family: arial;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+    background-color: #8B4513; /* SaddleBrown */
+	margin-top: 50px; /* pour que le texte_complet soit plus bas que le menu */
+	margin-left : 5%;
+	margin-right : 5%;
+	line-height : 200%;
+	
+}
+
+
+.q {
+    color : red;
+}
+
+.term {
+    color: rgb(0, 2, 128)
+}
+p{text-indent: 5%;}
+
+
+.menu {
+    height: 60px;
+    list-style: none;
+    padding: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement les éléments du menu */
+}
+
+.menu li {
+    width: 200px;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    background: #293245;
+    padding: 6px 10px;
+    border-right: 1px solid #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {background-color: #199BD2;}
+.menu li a:active {background-color: #808080;}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #808080;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    background-color: #556B2F; /* Optionnel : ajoute un fond au footer */
+    margin-top: 20px; /* Ajoute une marge en haut du footer pour le séparer du contenu */
+}
+
+.copyright > div:first-child {
+    margin-bottom: 20px; /* Ajoute de l'espace en dessous du premier div */
+}
+
+.copyright-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espace entre les éléments */
+}
+
+.linkedin-fixed, .github-fixed, .contact-fixed {
+    display: inline-block; /* Permet aux divs de s'afficher en ligne */
+    margin-right: 15px; /* Ajoute de l'espace à droite de chaque div sauf la dernière */
+}
+
+.linkedin-fixed:last-child, .github-fixed:last-child, .contact-fixed:last-child {
+    margin-right: 0; /* Supprime la marge à droite pour le dernier élément */
+}
+
+.linkedin-fixed img, .github-fixed img, .contact-fixed img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 0 2px black);
+    transition: transform 0.2s ease;
+}
+
+.linkedin-fixed img:hover, .github-fixed img:hover, .contact-fixed img:hover {
+    transform: scale(1.2);
+}
+
+
+
+#btnScrollToTop {
+    display: none;
+    position: fixed;
+    /* CHANGEMENT: J'ai déplacé un peu le bouton */
+    bottom: 10px;
+    right: 10px;
+    /* CHANGEMENT: J'ai changé le padding */
+    padding: 0.25em;
+    color: #FFF;
+    /* CHANGEMENT: J'ai changé la couleur du fond en blanc */
+    background-color: white;
+    /* CHANGEMENT: J'ai arrondi les bordures du bouton */
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* CHANGEMENT: On définit une taille pour l'image à l'intérieur du bouton */
+#btnScrollToTop img {
+    width: 50px;
+    height: 50px;
+  }
+
+#btnScrollToTop:hover {
+  background-color: #199BD2;
+
+
+
+  
+}
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+        hyphens: auto;
+        word-break: break-word;
+        margin: 0;
+        padding: 0;
+    }
+
+    .texte_complet {
+        text-align: left !important;   /* Supprime les gros espaces entre mots */
+        font-size: 16px;
+        padding: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 1.6;
+    }
+
+    .index {
+        position: static;
+        width: auto;
+        float: none;
+        margin: 1em auto;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .menu li {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    header {
+        font-size: 18px;
+        padding: 1em 0;
+    }
+
+    p {
+        text-indent: 2em;
+    }
+
+    #btnScrollToTop img {
+        width: 40px;
+        height: 40px;
+    }
+}

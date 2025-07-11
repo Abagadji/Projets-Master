@@ -1,0 +1,31 @@
+<!ELEMENT recette (titre, image, caractéristiques, ingrédients, déroulé) >
+	<!ELEMENT titre (#PCDATA)>
+	<!ELEMENT image (#PCDATA) >
+		<!ATTLIST image source CDATA #REQUIRED >
+		<!ELEMENT texte_alternatif (#PCDATA) >
+	<!ELEMENT caractéristiques (durée_quantifiée, degré_de_difficulté, coût) >
+		<!ELEMENT durée_quantifiée (nom_d_étape?, quantification) >
+			<!ATTLIST durée_quantifiée type (totale | préparation | repos | cuisson) #REQUIRED >
+			<!ELEMENT nom_d_étape (#PCDATA) >
+			<!ELEMENT quantification (quantité, unité_de_mesure?) > <!-- L'élément fils <unité_de_mesure> a été rendu optionnel car sa présence n'était pas systématique au sein de l'élément père <quantification> -->
+				<!ELEMENT quantité (#PCDATA) >
+				<!ELEMENT unité_de_mesure (#PCDATA) >
+		<!ELEMENT degré_de_difficulté (#PCDATA) >
+		<!ELEMENT coût (#PCDATA) >
+	<!ELEMENT ingrédients (ingrédient_quantifié+) >
+		<!ELEMENT ingrédient_quantifié (#PCDATA | quantification | ingrédient)*>
+		<!ELEMENT ingrédient (#PCDATA) >
+	<!ELEMENT déroulé (titre, durées, étapes) >
+		<!ELEMENT durées (durée_quantifiée+) >
+		<!ELEMENT étapes (étape+) >
+			<!ELEMENT étape (titre_d_étape, consigne) >
+				<!ELEMENT titre_d_étape (introducteur, ordonnateur_d_étape) >
+					<!ELEMENT introducteur (#PCDATA) >
+					<!ELEMENT ordonnateur_d_étape (#PCDATA) >
+				<!ELEMENT consigne (#PCDATA | action | ingrédient | ustensile | qualité_remarquable | point_d_attention | action_remarquable)* >
+					<!ATTLIST consigne type (astuce | instruction) #REQUIRED >
+					<!ELEMENT action (#PCDATA) >
+					<!ELEMENT ustensile (#PCDATA) >
+					<!ELEMENT qualité_remarquable (#PCDATA) >
+					<!ELEMENT point_d_attention (#PCDATA) >
+					<!ELEMENT action_remarquable (#PCDATA) >

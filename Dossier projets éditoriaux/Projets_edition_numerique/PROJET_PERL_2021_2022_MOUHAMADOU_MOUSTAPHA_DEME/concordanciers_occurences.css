@@ -1,0 +1,61 @@
+body{
+  background-color: BurlyWood;
+  text-align: center;
+  border : solid ForestGreen 10px;
+  margin-left : 15%;
+  margin-right : 15%;
+}
+
+h1{
+  color: ForestGreen;
+}
+
+
+.circle-menu {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center;      /* Centre verticalement */
+    padding: 0 20px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.circle:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+/* Responsive : Pour les écrans < 600px */
+@media (max-width: 600px) {
+    .circle-menu {
+        height: 80px;
+        padding: 0 10px;
+    }
+
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+

@@ -1,0 +1,111 @@
+body {
+    position: relative;
+hyphens: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fdf7e3;  /* Fond beige papier */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #333;
+}
+
+h1,h2{font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; /* Centre les titres */
+
+}
+
+h3{font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+p {
+text-indent: 3em;}
+/* Fond contenant des éléments flottants en pseudo-code */
+.background-keywords {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background-keywords span {
+    position: absolute;
+    font-family: Consolas, "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+    color: #fc0808;
+    opacity: 0.06; /* Un peu plus discret vu que le texte est plus dense */
+    white-space: nowrap;
+    user-select: none; /* Ne permet pas de sélectionner le texte décoratif */
+}
+
+/* Positionnements pour chaque ligne de pseudo-code */
+.background-keywords .kw1  { top: 5%;   left: 10%; transform: rotate(-8deg);  font-size: 36px; }
+.background-keywords .kw2  { top: 15%;  left: 60%; transform: rotate(10deg);  font-size: 42px; }
+.background-keywords .kw3  { top: 25%;  left: 30%; transform: rotate(-3deg);  font-size: 34px; }
+.background-keywords .kw4  { top: 35%;  left: 75%; transform: rotate(5deg);   font-size: 38px; }
+.background-keywords .kw5  { top: 45%;  left: 20%; transform: rotate(-12deg); font-size: 40px; }
+.background-keywords .kw6  { top: 55%;  left: 50%; transform: rotate(8deg);   font-size: 46px; }
+.background-keywords .kw7  { top: 65%;  left: 15%; transform: rotate(-5deg);  font-size: 36px; }
+.background-keywords .kw8  { top: 75%;  left: 70%; transform: rotate(12deg);  font-size: 44px; }
+.background-keywords .kw9  { top: 85%;  left: 35%; transform: rotate(-10deg); font-size: 32px; }
+.background-keywords .kw10 { top: 95%;  left: 55%; transform: rotate(4deg);   font-size: 38px; }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #efe3e3; /* Optionnel : ajoute un fond au footer */
+    margin-top: 20px; /* Ajoute une marge en haut du footer pour le séparer du contenu */
+}
+
+footer > div:first-child {
+    margin-bottom: 20px; /* Ajoute de l'espace en dessous du premier div */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espace entre les éléments */
+}
+
+.linkedin-fixed, .github-fixed, .contact-fixed {
+    display: inline-block; /* Permet aux divs de s'afficher en ligne */
+    margin-right: 15px; /* Ajoute de l'espace à droite de chaque div sauf la dernière */
+}
+
+.linkedin-fixed:last-child, .github-fixed:last-child, .contact-fixed:last-child {
+    margin-right: 0; /* Supprime la marge à droite pour le dernier élément */
+}
+
+.linkedin-fixed img, .github-fixed img, .contact-fixed img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 0 2px black);
+    transition: transform 0.2s ease;
+}
+
+.linkedin-fixed img:hover, .github-fixed img:hover, .contact-fixed img:hover {
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 767px) {
+    body {
+        text-align: left !important;      /* Supprime la justification */
+        font-size: 18px;                  /* Réduit un peu la taille de police */
+        line-height: 1.5;                 /* Meilleure lisibilité */
+        hyphens: auto;
+        word-break: break-word;
+    }
+
+    p {
+        text-indent: 2em; /* Légèrement moins d'indentation sur mobile */
+    }
+}

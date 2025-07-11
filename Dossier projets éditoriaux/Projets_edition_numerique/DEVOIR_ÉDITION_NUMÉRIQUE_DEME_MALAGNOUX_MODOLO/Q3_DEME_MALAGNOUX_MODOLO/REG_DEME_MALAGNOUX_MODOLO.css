@@ -1,0 +1,250 @@
+body{
+	background-image : url(fond_2.png);
+}
+
+#btnScrollToTop {
+    display: none;
+    position: fixed;
+    /* CHANGEMENT: J'ai déplacé un peu le bouton */
+    bottom: 10px;
+    right: 20px;
+    /* CHANGEMENT: J'ai changé le padding */
+    padding: 0.25em;
+    color: #FFF;
+    /* CHANGEMENT: J'ai changé la couleur du fond en blanc */
+    background-color: white;
+    /* CHANGEMENT: J'ai arrondi les bordures du bouton */
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* CHANGEMENT: On définit une taille pour l'image à l'intérieur du bouton */
+#btnScrollToTop img {
+    width: 50px;
+    height: 50px;
+  }
+
+#btnScrollToTop:hover {
+  background-color: #199BD2;
+}
+.circle-menu {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center;      /* Centre verticalement */
+    padding: 0 20px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.circle:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+/* Responsive : Pour les écrans < 600px */
+@media (max-width: 600px) {
+    .circle-menu {
+        height: 80px;
+        padding: 0 10px;
+    }
+
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.index {
+    width: 10%;
+    float: left;
+    position: absolute;
+    background-color: grey;
+    top: 0%;
+    border-radius: 30px;
+    border: solid white 3px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+ul{
+    color : beige;
+}
+
+.auteur {
+    text-align : center;
+    font-size : 25px;
+    font-weight : bold;
+}
+
+.titre {
+    text-align: center;
+    border : solid white 1px;
+    padding-top : 1em;
+    padding-bottom : 1em;
+    font-size : 30px;
+}
+
+.vers {
+    font-style : italic;
+}
+
+.epigraph {
+    text-align: right;
+    font-family : "Jazz LET";
+}
+.back {
+    text-align: right;
+}
+
+.texte_complet {
+	font-family : TimesNewRoman;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+	background-color: black;
+	margin-left : 15%;
+	margin-right : 5%;
+	line-height : 200%;
+}
+
+.titre_oeuvre {
+    font-style : italic;
+    background-color : #E0CDA9;
+    border : 2px;
+    border : outset;
+    padding : 2em;
+    font-family : TimesNewRoman;
+    text-align : center;
+    color : black;
+    font-size : 2em;
+}
+
+.titre_secondaire {
+    text-align : center;
+    text-decoration : underline;
+    font-family : TimesNewRoman;
+    color : grey;
+}
+
+.auteur {
+    text-align : center;
+    font-weight : bold;
+    color : black;
+    background-image : url(auteur.jpg);
+    padding-bottom : 20em;
+    background-repeat : no-repeat;
+    background-size : 15em auto;
+    background-position : center;
+}
+
+.contexte::before {
+    content : "❧";
+}
+
+
+
+.contexte {
+    margin-left : 25px;
+}
+
+img {
+    display:block;
+      float:left;
+     width: 75px;
+    height: 75px;
+}
+
+.info_bulle {
+  position: relative;         /* Permet aux pseudo-éléments ::after d’être positionnés par rapport à ce span */
+  cursor: help;               /* Change le curseur en icône d’aide au survol, indiquant qu’une info est disponible */
+  color: black;               /* Couleur du texte normal */
+  background-color: yellow;   /* Fond jaune pour distinguer le mot avec info-bulle (optionnel ou temporaire pour debug) */
+  cursor: help;
+
+}
+
+
+
+/* Style de l'infobulle visible au survol */
+.info_bulle:hover::after,
+.info_bulle:focus::after {
+  content: attr(aria-label);
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff8dc;
+  color: #333;
+  padding: 10px;
+  width: 300px;
+  max-height: 200px;         /* ← Limite la hauteur */
+  overflow-y: auto;          /* ← Active le défilement vertical si besoin */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  z-index: 100;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .info_bulle:hover::after {
+    display: none; /* désactive le hover */
+  }
+
+  .info_bulle:focus::after {
+    display: block; /* mais autorise le focus clavier ou tap */
+  }
+}
+
+
+
+/*FOOTER*/
+
+#index-footer{
+  margin-left: 17%;
+  margin-top: 3%;
+  width: 82%;
+  background-color: #344D59;
+  color : #ECF8F6;
+  border: 1px solid #B8CBD0;
+  padding : 3pt;
+  font-family : arial;
+}
+
+footer{
+  margin-top: 3%;
+  width: 100%;
+  background-color: #344D59;
+  color : #ECF8F6;
+  border: 1px solid #B8CBD0;
+  padding : 3pt;
+  
+  font-family : arial;
+}

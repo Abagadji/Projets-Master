@@ -1,0 +1,68 @@
+
+.body {
+    background-color: beige;
+    font-family: arial;
+}
+
+img {
+    width: 700px;
+    height: 400px;
+    border: solid white 3px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.ingrédient_quantifié {
+    padding-top: 1em;
+}
+
+h2 {
+    padding-top: 1em;
+    color: brown;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.titre {
+    text-align: center;
+    font-family: courier, fixed, monospace;
+    color: brown;
+    font-weight: bold;
+    font-size: 3em;
+    text-decoration: underline;
+    background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p1/4725277-tartan-motif-sans-couture-plaid-vector-avec-pastel-marron-et-blanc-pour-impression-papier-peint-textile-jute-nappe-fond-a-carrelage-vectoriel.jpg);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    border: solid brown;
+}
+
+.caractéristiques {
+    text-align: center;
+    border: 1px solid black;
+    background: brown;
+    color: beige;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+
+.durées {
+    text-align: center;
+    border: 1px solid black;
+    background: brown;
+    color: beige;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.titre_d_étape {
+    padding-top: 2em;
+    color: brown;
+    font-size: large;
+    text-transform: capitalize;
+    font-style : italic;
+}
+

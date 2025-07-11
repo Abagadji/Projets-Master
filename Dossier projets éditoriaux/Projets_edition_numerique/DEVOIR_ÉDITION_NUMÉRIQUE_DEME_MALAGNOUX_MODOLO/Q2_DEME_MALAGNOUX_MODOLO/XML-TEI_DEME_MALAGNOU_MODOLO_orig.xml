@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le grand Olympe des Histoires poëtiques du prince de poësie Ovide
+               Naso en sa Metamorphose issue de Gallica</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Version XML TEI enrichie : Le grand Olympe des Histoires poëtiques du prince de poësie Ovide
+               Naso en sa Metamorphose issue de Gallica, produit dans le cadre dans du rendu de l'enseignement en Édition Numérique</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Le grand Olympe des Histoires poëtiques du prince de poësie Ovide
+               Naso en sa Metamorphose issue de Gallica (cf.
+               https://gallica.bnf.fr/ark:/12148/btv1b8600297j?fbclid=IwAR1al_x61HFmtoQm4dqxaOc2tGIy6Sjn-ilJvTyCqdU5Ea_ncyuT_bHZzco)</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="main">Le grand Olympe des Histoires poëtiques du prince de poësie Ovide
+               Naso en sa Metamorphose </titlePart>
+            <titlePart type="desc">Oeuvre authentique, &amp; de hault artifice, pleine de honneste
+               recreation, Traduyct de latin en françoys</titlePart>
+         </docTitle>
+         <docAuthor> Ovide (0043 av. J.-C.-0017).</docAuthor>
+      </front>
+      <body>
+         <figure type="page_1">
+            <graphic url="morin1532_facsimile_page-0001.jpg"/>
+         </figure>
+         <label type="rubrique">Le dixie<orig>ſ</orig>
+            <reg>s</reg>me li<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>re du grant Olympe<lb/>des hi<orig>ſ</orig>
+            <reg>s</reg>toires Poetiques.<lb/>
+         </label>
+         <label type="rubrique">Le mariage de Orpheus a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ec Eurydi<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>ce lequel en chantant la tira des enfers.<lb/>
+         </label>
+         <p>
+            <seg type="initial">A</seg>
+            <choice change="lettreRamiste">
+               <orig>V</orig>
+               <reg>u</reg>
+            </choice>x nopces de Iphis <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>I<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>the. Le dieu Hy<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>men fut a<orig>ſſ</orig>
+            <reg>ss</reg>is a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ecques plu<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>ieurs autres<lb/>dieux <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>dee<orig>ſſ</orig>
+            <reg>ss</reg>es. Et quant Hymen<orig>ſ</orig>
+            <reg>s</reg>e par<lb/>tit, par l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>air <choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>envolla grant erre en Cyco<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>nie, ou <orig>ſ</orig>
+            <reg>s</reg>emons e<orig>ſ</orig>
+            <reg>s</reg>t<m type="desinence">oit</m>de par Orpheus <choice>
+               <abbr type="signeSpecial">զ</abbr>
+               <expan>qui</expan>
+            </choice>
+            <lb/>de<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>e<orig>ſ</orig>
+            <reg>s</reg>pou<orig>ſ</orig>
+            <reg>s</reg>er Eurydice. A ces nopces<lb/>vint<orig>ſ</orig>
+            <reg>s</reg>ans bonheur apporter <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>y d<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>na<orig>ſ</orig>
+            <reg>s</reg>i<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>gne de douleur ad<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>enir,<choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>de male for<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>tune comme<choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>e vous diray. Au print<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>em</expan>
+            </choice>ps<lb/>
+            <orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>en all<m type="desinence">oit </m>l<choice change="desagglutination">
+               <reg>'</reg>
+            </choice>e<orig>ſ</orig>
+            <reg>s</reg>pou<orig>ſ</orig>
+            <reg>s</reg>e no<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>elle e<orig>ſ</orig>
+            <reg>s</reg>bat<choice>
+               <abbr type="contraction">ã </abbr>
+               <expan>an</expan>
+            </choice>t<choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>
+            <choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>our nud<m type="diacritique">z </m>pied<m type="diacritique">z </m>en<lb/>
+            <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>pr<choice change="signesDiacritiques">
+               <orig>e</orig>
+               <reg>é</reg>
+            </choice>plain d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>herbes verdoyans,<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>illec <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>pa<orig>ſ</orig>
+            <reg>s</reg>teur bel <choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>
+            <lb/>gaillart n<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>om</expan>
+            </choice>me Ari<orig>ſ</orig>
+            <reg>s</reg>te<choice>
+               <abbr type="signeSpecial">9 </abbr>
+               <expan>us</expan>
+            </choice>veit la belle, laquelle il requi<orig>ſ</orig>
+            <reg>s</reg>t tanto<orig>ſ</orig>
+            <reg>s</reg>t<lb/>de <orig>ſ</orig>
+            <reg>s</reg>on amour,<pc type="PONfrt">
+               <choice>
+                  <reg>.</reg>
+               </choice>
+            </pc>Mais icelle a luy ne<orig>ſ</orig>
+            <reg>s</reg>e voulut accorder ne ha<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>band<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>ner pour priere ne reque<orig>ſ</orig>
+            <reg>s</reg>te qu<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>il luy <orig>ſ</orig>
+            <reg>s</reg>ceu<orig>ſ</orig>
+            <reg>s</reg>t faire, car<lb/>trop <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>de bon cueur aym<m type="desinence">oit </m>
+            <orig>ſ</orig>
+            <reg>s</reg>on nou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>el e<orig>ſ</orig>
+            <reg>s</reg>poux Orpheus<lb/>
+         </p>
+         <figure type="page_2">
+            <graphic url="morin1532_facsimile_page-0002.jpg"/>
+         </figure>
+         <p> ains pour de luy e<orig>ſ</orig>
+            <reg>s</reg>chapper <orig>ſ</orig>
+            <reg>s</reg>e mi<orig>ſ</orig>
+            <reg>s</reg>t a la fuyte <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>celluy la<orig>ſ</orig>
+            <reg>s</reg>uy<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>uit, mais a<choice>
+               <abbr type="contraction">ĩ</abbr>
+               <expan>in</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>i que la belle Eurydice fuy<m type="desinence">oit </m>elle marcha
+               de<orig>ſſ</orig>
+            <reg>ss</reg>us<lb/>
+            <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>
+            <orig>ſ</orig>
+            <reg>s</reg>erp<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t<choice change="desagglutination">
+               <reg/>
+            </choice>venimeux qui la mordit environ le talon dont elle<lb/>mourut. Quant Orpheus
+               <orig>ſ</orig>
+            <reg>s</reg>ceut<choice>
+               <abbr type="contraction"> q ̃</abbr>
+               <expan>que</expan>
+            </choice>par soubdaine deffortune<lb/>a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>perdu <orig>ſ</orig>
+            <reg>s</reg>a femme<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>e<orig>ſ</orig>
+            <reg>s</reg>pou<orig>ſ</orig>
+            <reg>s</reg>e, il <orig>ſ</orig>
+            <reg>s</reg>e c<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>om</expan>
+            </choice>plaignit <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>e doulou<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>
+            <orig>ſ</orig>
+            <reg>s</reg>a t<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t que trop long <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>trop ennuiable <orig>ſ</orig>
+            <reg>s</reg>er<m type="desinence">oit</m>a le rac<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>om</expan>
+            </choice>pter. Et<lb/>quant par le monde l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>eu<orig>ſ</orig>
+            <reg>s</reg>t longuem<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t plouree en enfer<choice change="desagglutination">
+               <reg/>
+            </choice>voulut<lb/>de<orig>ſ</orig>
+            <reg>s</reg>c<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>dre <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>aller<choice change="desagglutination">
+               <reg/>
+            </choice>veoir <orig>ſ</orig>
+            <reg>s</reg>t<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>il pourr<m type="desinence">oit </m>ra<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oir <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>recou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>rer <orig>ſ</orig>
+            <reg>s</reg>a<choice change="desagglutination">
+               <reg/>
+            </choice>mye<lb/>
+            <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>e a ce pourr<m type="desinence">oit </m>mou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oir les infernau<m type="pluriel">lx</m>. Il ten<m type="desinence">oit </m>
+            <orig>ſ</orig>
+            <reg>s</reg>a harpe<lb/>entre <orig>ſ</orig>
+            <reg>s</reg>es bras <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>en touch<m type="desinence">oit </m>les cordes :<choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>de la bouche <orig>ſ</orig>
+            <reg>s</reg>e<lb/>print a chanter telle chan<orig>ſ</orig>
+            <reg>s</reg>on.<lb/>
+         </p>
+         <label type="rubrique">La chan<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>on de Orpheus aux enfers.<lb/>
+         </label>
+         <lg>
+            <l>
+               <seg type="initial">D</seg>Ieu<m type="pluriel">lx </m>infernau<m type="pluriel">lx
+               </m>en tenebres regnans</l>
+            <l>En la chartre plaine d<choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>ob<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>
+               <choice>
+                  <reg>c</reg>
+               </choice>urite</l>
+            <l>Ou<choice change="desagglutination">
+                  <reg/>
+               </choice>vous e<orig>ſ</orig>
+               <reg>s</reg>tes tout le m<choice>
+                  <abbr type="contraction">õ</abbr>
+                  <expan>on</expan>
+               </choice>de tenans</l>
+            <l>A ce <orig>ſ</orig>
+               <reg>s</reg>ubmi<orig>ſ</orig>
+               <reg>s</reg>e e<orig>ſ</orig>
+               <reg>s</reg>t toute humanit<choice change="signesDiacritiques">
+                  <orig>e</orig>
+                  <reg>é</reg>
+               </choice>
+            </l>
+            <l>Pour e<orig>ſſ</orig>
+               <reg>ss</reg>aier vo<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>tre crudelit<choice change="signesDiacritiques">
+                  <orig>e</orig>
+                  <reg>é</reg>
+               </choice>
+            </l>
+            <l>Et regarder vo<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>tre gou<choice change="lettreRamiste">
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ernem<choice>
+                  <abbr type="contraction">ẽ</abbr>
+                  <expan>en</expan>
+               </choice>t</l>
+            <l>Pas en ce lieu ne me<orig>ſ</orig>
+               <reg>s</reg>uis tran<orig>ſ</orig>
+               <reg>s</reg>port<choice change="signesDiacritiques">
+                  <orig>e</orig>
+                  <reg>é</reg>
+               </choice>
+            </l>
+            <l>Eurydice demande <orig>ſ</orig>
+               <reg>s</reg>eulem<choice>
+                  <abbr type="contraction">ẽ</abbr>
+                  <expan>en</expan>
+               </choice>t,</l>
+            <l>Quant le <orig>ſ</orig>
+               <reg>s</reg>erpent tellem<choice>
+                  <abbr type="contraction">ẽ</abbr>
+                  <expan>en</expan>
+               </choice>t la ble<orig>ſſ</orig>
+               <reg>ss</reg>a</l>
+            <l>Qu<choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>elle mourut <choice>
+                  <abbr type="remplacementET">&amp; </abbr>
+                  <expan>et</expan>
+               </choice>vint a<choice change="lettreRamiste">
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ecques vous</l>
+            <l>Si a<orig>ſ</orig>
+               <reg>s</reg>prement mon cueur <orig>ſ</orig>
+               <reg>s</reg>e courroucea</l>
+            <l>Que <choice change="lettreRamiste">
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>
+               <choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>en <orig>ſ</orig>
+               <reg>s</reg>ouffry plus que mortel courroux</l>
+            <l>Ma femme e<orig>ſ</orig>
+               <reg>s</reg>t<m type="desinence">oit </m>
+               <choice change="lettreRamiste">
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>
+               <choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>e<orig>ſ</orig>
+               <reg>s</reg>t<m type="desinence">oie </m>
+               <orig>ſ</orig>
+               <reg>s</reg>on e<orig>ſ</orig>
+               <reg>s</reg>poux</l>
+            <l>
+               <choice change="lettreRamiste">
+                  <orig>I</orig>
+                  <reg>J</reg>
+               </choice>e viens icy <orig>ſ</orig>
+               <reg>s</reg>uccumb<choice change="signesDiacritiques">
+                  <orig>e </orig>
+                  <reg>é</reg>
+               </choice>de tourment</l>
+            <l>Pour vous offrir <choice change="lettreRamiste">
+                  <orig>v</orig>
+                  <reg>u</reg>
+               </choice>ne reque<orig>ſ</orig>
+               <reg>s</reg>te a tous</l>
+            <l>Eurydice dem<choice>
+                  <abbr type="contraction">ã</abbr>
+                  <expan>an</expan>
+               </choice>de <orig>ſ</orig>
+               <reg>s</reg>eulement.</l>
+            <l>
+               <choice change="lettreRamiste">
+                  <orig>I</orig>
+                  <reg>J</reg>
+               </choice>adis Pluto Pro<orig>ſ</orig>
+               <reg>s</reg>erpine ra<choice change="lettreRamiste">
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>it</l>
+            <l>Par feu d<choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>amours,<choice>
+                  <abbr type="remplacementET">&amp;</abbr>
+                  <expan>et</expan>
+               </choice>ceans la bouta</l>
+            <l>Mais toute<orig>ſ</orig>
+               <reg>s</reg>fois quant vo<m type="diacritique">z</m>tormens y vit</l>
+            <l>Point e<orig>ſ</orig>
+               <reg>s</reg>bahy ne <orig>ſ</orig>
+               <reg>s</reg>uis <orig>ſ</orig>
+               <reg>s</reg>
+               <choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>elle doubta,</l>
+            <l>Et le <orig>ſ</orig>
+               <reg>s</reg>uis <orig>ſ</orig>
+               <reg>s</reg>eur que ce<orig>ſ</orig>
+               <reg>s</reg>te grande doubte a</l>
+         </lg>
+         <figure type="page_3">
+            <graphic url="morin1532_facsimile_page-0003.jpg"/>
+         </figure>
+         <lg>
+            <l>Mon e<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>pou<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>e,<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>i vous pry doulcement</l>
+            <l>E<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>coutez moy,<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>e onc homme on e<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>couta</l>
+            <l>Eurydice demande <choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>eulem<choice>
+                  <abbr type="contraction">ẽ</abbr>
+                  <expan>en</expan>
+               </choice>t.</l>
+            <l>Quant maintenant vous me la baillerez</l>
+            <l>Pour demener a<choice change="lettreRamiste">
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ec moy train d<choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>amours</l>
+            <l>Rien n<choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>y perdrez puis que vous la raurez</l>
+            <l>Finablement, mais qu<choice change="desagglutination">
+                  <reg>’</reg>
+               </choice>elle ait faist <choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>on cours</l>
+            <l>Car tous humains en la fin de leurs <choice change="lettreRamiste">
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ours</l>
+            <l>Viennent ceans a vo<choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>tre <choice change="lettreRamiste">
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ugement</l>
+            <l>Mais<choice change="lettreRamiste">
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e vous pry que me donnez <choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>ecours</l>
+            <l>Eurydice demande <choice change="sLong">
+                  <orig>ſ</orig>
+                  <reg>s</reg>
+               </choice>eulement.</l>
+         </lg>
+         <p>
+            <seg type="initial">O</seg>Rpheus de<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ant l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>infernal manoir,<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>i doulcem<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t<lb/>chanta que pour la melodieu<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>e<choice change="desagglutination">
+               <reg/>
+            </choice>te du <choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>on de <choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>a<lb/>voix en<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>emble de<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>a harpe : les ames tri<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>tes qui<lb/>la e<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>t<m type="desinence">oi</m>
+            <choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>
+            <m type="desinence">t </m>en oublier<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t leurs peines. T<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>talus en<lb/>oublia <choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>a <choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>oif, Ixi<choice>
+               <abbr type="contraction">õ </abbr>
+               <expan>on</expan>
+            </choice>
+            <choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>qui</expan>
+            </choice>pres de luy e<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>t<m type="desinence">oit </m>en lai<orig>ſſ</orig>
+            <reg>ss</reg>a<lb/>la roe repo<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>er. Si<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>yphus mi<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>t<choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>us la roche qui le tra<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>aill<m type="desinence">oit</m>. Et Ticyus lai<orig>ſſ</orig>
+            <reg>ss</reg>a a d<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>ner aux voultours <choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>on gi<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>ier<lb/>a rongier,<choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>les Belidiennes lai<orig>ſſ</orig>
+            <reg>ss</reg>ans la fontaine a e<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>pui<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>er mi<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>rent<choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>us leurs cribles. Et<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>e<choice change="desagglutination">
+               <reg/>
+            </choice>veritable e<choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>t la renommee <choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>que</expan>
+            </choice>ce me<lb/>faist acroire <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>ent<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>dre, les Eumenidi<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>nes <choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>que</expan>
+            </choice>oy<m type="desinence">oient </m>la doul<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>ceur de la harpe plor<m type="desinence">oient </m>de Orphe<choice>
+               <abbr type="signeSpecial">9</abbr>
+               <expan>us</expan>
+            </choice>, ce <choice>
+               <abbr type="contraction">q̃ </abbr>
+               <expan>que</expan>
+            </choice>onc<choice>
+               <abbr type="contraction">q̃</abbr>
+               <expan>que</expan>
+            </choice>s para<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t n<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>e-<lb/>
+            <choice change="sLong">
+               <orig>ſ</orig>
+               <reg>s</reg>
+            </choice>t<m type="desinence">oit </m>ad<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>enu ne peu ad<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>enir. La royne Pro<orig>ſ</orig>
+            <reg>s</reg>erpine ne <orig>ſ</orig>
+            <reg>s</reg>e po<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>
+            <choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>ab<orig>ſ</orig>
+            <reg>s</reg>tenir de larmoyer : le roy d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>enfer ne po<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>par nulle<lb/>maniere e<orig>ſ</orig>
+            <reg>s</reg>c<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>dire à Orphe<choice>
+               <abbr type="signeSpecial">9 </abbr>
+               <expan>us</expan>
+            </choice>cho<orig>ſ</orig>
+            <reg>s</reg>e <choice>
+               <abbr type="signeSpecial">զ</abbr>
+               <expan>qu</expan>
+            </choice>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>
+            <choice>
+               <expan>i</expan>
+            </choice>l<m type="diacritique">z </m>luy demanda<orig>ſ</orig>
+            <reg>s</reg>t. Si fut<lb/>Eurydice appellee <choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>qui</expan>
+            </choice>e<orig>ſ</orig>
+            <reg>s</reg>t<m type="desinence">oit </m>en la<choice change="desagglutination">
+               <reg/>
+            </choice>valee <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>mbreu<orig>ſ</orig>
+            <reg>s</reg>e a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ec celles <choice>
+               <abbr type="signeSpecial">զ</abbr>
+               <expan>qui</expan>
+            </choice>
+            <lb/>venues e<orig>ſ</orig>
+            <reg>s</reg>toi<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t nou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ellem<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t. Lors apparut Euridice la<choice>
+               <abbr type="contraction">q̃</abbr>
+               <expan>que</expan>
+            </choice>lle<lb/>all<m type="desinence">oit </m>cloch<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t <choice>
+               <abbr type="signeSpecial">p </abbr>
+               <expan>par</expan>
+            </choice>la playe <choice>
+               <abbr type="contraction">q̃</abbr>
+               <expan>que</expan>
+            </choice>lle a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>receue ou pied <choice>
+               <abbr type="signeSpecial">p </abbr>
+               <expan>par</expan>
+            </choice>le <orig>ſ</orig>
+            <reg>s</reg>erp<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t.<lb/>Moult fut Orphe<choice>
+               <abbr type="signeSpecial">9 </abbr>
+               <expan>us</expan>
+            </choice>
+            <choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>oyeu<m type="pluriel">lx </m>qu<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t venir la vit <pc type="PONfrt">
+               <choice>
+                  <reg>.</reg>
+               </choice>
+            </pc>Elle luy fut ren<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>due par tel c<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>
+            <choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>en<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t que il ne<orig>ſ</orig>
+            <reg>s</reg>e retorna<orig>ſ</orig>
+            <reg>s</reg>t ne regarda<orig>ſ</orig>
+            <reg>s</reg>t derrie<lb/>re luy <choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>u<orig>ſ</orig>
+            <reg>s</reg>
+            <choice>
+               <abbr type="contraction">q̃</abbr>
+               <expan>que</expan>
+            </choice>s a ce <choice>
+               <abbr type="contraction">q̃</abbr>
+               <expan>q</expan>
+            </choice>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>
+            <choice>
+               <expan>ue</expan>
+            </choice>lle fu<orig>ſ</orig>
+            <reg>s</reg>t totalem<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t hors des torm<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>s<choice change="desagglutination">
+               <reg/>
+            </choice>
+            <choice>
+               <abbr type="contraction">ĩ</abbr>
+               <expan>in</expan>
+            </choice>fernau<m type="pluriel">lx</m>
+            <lb/>
+            <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <choice>
+               <abbr type="signeSpecial">զ</abbr>
+               <expan>qu</expan>
+            </choice>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>
+            <choice>
+               <expan>i</expan>
+            </choice>l alla<orig>ſ</orig>
+            <reg>s</reg>t de<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>elle le <orig>ſ</orig>
+            <reg>s</reg>uvur<m type="desinence">oit </m>derriere ou autrem<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t<choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>a<lb/>mais n<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>
+            <choice>
+               <abbr type="contraction">ẽ </abbr>
+               <expan>en</expan>
+            </choice>y<orig>ſ</orig>
+            <reg>s</reg>tr<m type="desinence">oit</m>. Lors par <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>
+            <orig>ſ</orig>
+            <reg>s</reg>entier moult roide <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>e<orig>ſ</orig>
+            <reg>s</reg>tr<m type="desinence">oit</m>
+            <lb/>
+            <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>pla<choice>
+               <abbr type="contraction">ĩ </abbr>
+               <expan>in</expan>
+            </choice>de tenebreu<orig>ſ</orig>
+            <reg>s</reg>e ob<orig>ſ</orig>
+            <reg>s</reg>curit<choice change="signesDiacritiques">
+               <orig>e </orig>
+               <reg>é</reg>
+            </choice>
+            <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>for<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oyable chem<choice>
+               <abbr type="contraction">ĩ </abbr>
+               <expan>in</expan>
+            </choice>l<choice>
+               <abbr type="contraction">ũ</abbr>
+               <expan>un</expan>
+            </choice>g de<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>
+         </p>
+
+         <figure type="page_4">
+            <graphic url="morin1532_facsimile_page-0004.jpg"/>
+         </figure>
+         <p>
+            <choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ant,<choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>autre apres <orig>ſ</orig>
+            <reg>s</reg>e mirent en la voye Orpheus <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>a<choice change="desagglutination">
+               <reg/>
+            </choice>mve.<lb/>Tant cheminerent que <choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>a e<orig>ſ</orig>
+            <reg>s</reg>t<m type="desinence">oient </m>pres tout dehors du pour-<lb/>pris infernal,
+            quant Orpheus qui d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>amour e<orig>ſ</orig>
+            <reg>s</reg>t<m type="desinence">oit </m>e<orig>ſ</orig>
+            <reg>s</reg>pris de<orig>ſ</orig>
+            <reg>s</reg>ir<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t<lb/>de veoir <orig>ſ</orig>
+            <reg>s</reg>a<choice change="desagglutination">
+               <reg/>
+            </choice>mye :<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>doubtant qu<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>elle ne le<orig>ſ</orig>
+            <reg>s</reg>uyui<orig>ſ</orig>
+            <reg>s</reg>t<orig> ſ</orig>
+            <reg>s</reg>e retourna<lb/>pour elle regarder. Et inc<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>tin<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t elle <orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>e<orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>anouy<orig>ſ</orig>
+            <reg>s</reg>t de<orig>ſ</orig>
+            <reg>s</reg>es yeu<m type="pluriel">lx</m>
+            <lb/>
+            <choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>en retourna en enfer. Orpheus tendit <orig>ſ</orig>
+            <reg>s</reg>es mains qui rete<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>nir la cuida, mais riens ne print forsvent, Et ain<orig>ſ</orig>
+            <reg>s</reg>i<orig> ſ</orig>
+            <reg>s</reg>e partit Eu<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>rydice de <orig>ſ</orig>
+            <reg>s</reg>on amy<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>mourut de <orig>ſ</orig>
+            <reg>s</reg>econde mort, mais de luy<lb/>ne <orig>ſ</orig>
+            <reg>s</reg>e peut pla<choice>
+               <abbr type="contraction">ĩ</abbr>
+               <expan>in</expan>
+            </choice>dre, fors de trop aymer. Le dernier <orig>ſ</orig>
+            <reg>s</reg>alut luy r<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>
+            <lb/>dit que a peine l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>entendit Orpheus. Forment <orig>ſ</orig>
+            <reg>s</reg>e plaign<m type="desinence">oit </m>de<lb/>la <orig>ſ</orig>
+            <reg>s</reg>econde mort de <orig>ſ</orig>
+            <reg>s</reg>a<choice change="desagglutination">
+               <reg/>
+            </choice>mye,<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>voulut retourner pour trou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>er<lb/>la mort, mais la porte trou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>a fermee. Et le portier qui la gar<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>d<m type="desinence">oit </m>luy retarda <orig>ſ</orig>
+            <reg>s</reg>on chemin <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>i luy di<orig>ſ</orig>
+            <reg>s</reg>t <choice>
+               <abbr type="contraction">q̃ </abbr>
+               <expan>que</expan>
+            </choice>
+            <choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>amais recou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>rer ne la pourr<m type="desinence">oit</m>. Quant Orpheus vit que plus entrer
+               n<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>y pour<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>r<m type="desinence">oit</m>,<orig>ſ</orig>
+            <reg>s</reg>ur la ri<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>e du fleu<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>e infernal fut sept<choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>ours plour<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t pour<lb/>la <orig>ſ</orig>
+            <reg>s</reg>econde mort de <orig>ſ</orig>
+            <reg>s</reg>a<choice change="desagglutination">
+               <reg/>
+            </choice>mye <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>pour la perte di<choice change="desagglutination">
+               <reg/>
+            </choice>celle,<orig>ſ</orig>
+            <reg>s</reg>ans man<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>ger <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>ans boyre vi<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>luy <orig>ſ</orig>
+            <reg>s</reg>o<orig>ſ</orig>
+            <reg>s</reg>tenant de <orig>ſ</orig>
+            <reg>s</reg>on dueil. Moult te<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>n<m type="desinence">oit </m>les dieux d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>enfer mau<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ais <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>felons qui <orig>ſ</orig>
+            <reg>s</reg>a<choice change="desagglutination">
+               <reg/>
+            </choice>mye ain<orig>ſ</orig>
+            <reg>s</reg>i dete<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>noi <choice>
+               <abbr type="contraction">ẽ </abbr>
+               <expan>en</expan>
+            </choice>t<pc type="PONfrt">
+               <choice>
+                  <reg>.</reg>
+               </choice>
+            </pc>Puis <orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>eu retourna Orpheus<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>trois ans <orig>ſ</orig>
+            <reg>s</reg>e tint <orig>ſ</orig>
+            <reg>s</reg>ans fem<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>me <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>ans ch<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>am</expan>
+            </choice>beriere fuyant toute amour femenine,<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>met<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>tant toutes cho<orig>ſ</orig>
+            <reg>s</reg>es en refus <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>en de<orig>ſ</orig>
+            <reg>s</reg>dain<m type="diacritique">g</m>, Ce non ob<orig>ſ</orig>
+            <reg>s</reg>tant<lb/>plu<orig>ſ</orig>
+            <reg>s</reg>ieurs damoi<orig>ſ</orig>
+            <reg>s</reg>elles l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>aymerent qui en luy peu d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>amour c<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>
+            <lb/>quirent, Car<choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>ouyr n<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>en peurent, Il ne les daign<m type="desinence">oit </m>ouyr dont<lb/>moult de
+            luy <orig>ſ</orig>
+            <reg>s</reg>e plaign<m type="desinence">oient</m>.<lb/>
+         </p>
+         <label type="rubrique">La deploration du Poete Orpheus<lb/>pour a<choice
+               change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oir perdue <orig>ſ</orig>
+            <reg>s</reg>a<choice change="desagglutination">
+               <reg/>
+            </choice>mye.</label>
+         <p>
+            <seg type="initial">D</seg>Effus <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>tertre en <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>champ plain d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>herbe<lb/>verdoyant ou point d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>umbre na<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>
+            <orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>a<orig>ſſ</orig>
+            <reg>ss</reg>i<orig>ſ</orig>
+            <reg>s</reg>t Or<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>pheus puis print<orig>ſ</orig>
+            <reg>s</reg>a harpe de laquelle il fi<orig>ſ</orig>
+            <reg>s</reg>t les<lb/>cordes re<orig>ſ</orig>
+            <reg>s</reg>onner par grande armonie. Lors<choice change="desagglutination">
+               <reg/>
+            </choice>vin<lb/>drent en<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>iron luy pour le <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>mbroier arbres de<lb/>di<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>er<orig>ſ</orig>
+            <reg>s</reg>es manières qui pourprindrent la place<lb/>quant la doulceur ouyrent du
+            melodieux <orig>ſ</orig>
+            <reg>s</reg>on. A ce<orig>ſ</orig>
+            <reg>s</reg>t a<orig>ſſ</orig>
+            <reg>ss</reg>em<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>
+         </p>
+
+         <figure type="page_5">
+            <graphic url="morin1532_facsimile_page-0005.jpg"/>
+         </figure>
+         <p>blement vindr<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t arbres portans fruit<m type="diacritique">z </m>de di<choice
+               change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>er<orig>ſ</orig>
+            <reg>s</reg>es <orig>ſ</orig>
+            <reg>s</reg>ortes c<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>om</expan>
+            </choice>
+            <pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>am<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>diers, laurie<choice>
+               <corr resp="editor">r</corr>
+            </choice>s, ne<orig>ſ</orig>
+            <reg>s</reg>flie<choice>
+               <corr resp="editor">r</corr>
+            </choice>s, corneilliers :<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>meurie<choice>
+               <corr resp="editor">r</corr>
+            </choice>s, che<orig>ſ</orig>
+            <reg>s</reg>nes,<lb/>fre<orig>ſ</orig>
+            <reg>s</reg>nes, e<orig>ſ</orig>
+            <reg>s</reg>rables pe<orig>ſ</orig>
+            <reg>s</reg>chiers, gene<orig>ſ</orig>
+            <reg>s</reg>trie<choice>
+               <corr resp="editor">r</corr>
+            </choice>s, ceri<orig>ſ</orig>
+            <reg>s</reg>ie<choice>
+               <corr resp="editor">r</corr>
+            </choice>s, pruniers <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>aul<lb/>tres arbres perdurables de verdeur. Si y vindrent figuiers
+               :<orig>ſ</orig>
+            <reg>s</reg>a<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>pins <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>les arbres qui le ba<orig>ſ</orig>
+            <reg>s</reg>me portent. Encore y vindrent oli<lb/>
+            <choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>iers, aube<orig>ſ</orig>
+            <reg>s</reg>pins <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>plu<orig>ſ</orig>
+            <reg>s</reg>ieurs aultres arbres portant noix. Le<lb/>palme <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>le pin y fur<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t. Cybelle y amena Athys qui fut mu<choice change="signesDiacritiques">
+               <orig>e</orig>
+               <reg>é</reg>
+            </choice>
+            <lb/>en pin <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>vint au<orig>ſſ</orig>
+            <reg>ss</reg>i a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ec luy le cypres qui <choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>adis a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>e<orig>ſ</orig>
+            <reg>s</reg>t<choice change="signesDiacritiques">
+               <orig>e </orig>
+               <reg>é</reg>
+            </choice>en<lb/>fant <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>nou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ellem<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t e<orig>ſ</orig>
+            <reg>s</reg>t<m type="desinence">oit </m>mu<choice change="signesDiacritiques">
+               <orig>e </orig>
+               <reg>é</reg>
+            </choice>en <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>ng arbre, moult l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>aym<m type="desinence">oit</m>
+            <lb/>Phebus tandis qu<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>il e<orig>ſ</orig>
+            <reg>s</reg>t<m type="desinence">oit </m>vif.<lb/>
+         </p>
+
+         <figure type="page_6">
+            <graphic url="morin1532_facsimile_page-0006.jpg"/>
+         </figure>
+         <label type="rubrique">La fin de Orpheus<orig>ſ</orig>
+            <reg>s</reg>ou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>erain harpeur.<lb/>
+         </label>
+         <p>
+            <seg type="initial">P</seg>Endant que le poete de Thrace Orphe<choice>
+               <abbr type="signeSpecial">9 </abbr>
+               <expan>us</expan>
+            </choice>
+            <lb/>par le doux ch<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t de <orig>ſ</orig>
+            <reg>s</reg>on harpe armonieu<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>
+            <orig>ſ</orig>
+            <reg>s</reg>e delect<m type="desinence">oit </m>les arbres les be<orig>ſ</orig>
+            <reg>s</reg>tes<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>les<choice change="desagglutination">
+               <reg/>
+            </choice>pier<lb/>res, vecy<choice change="desagglutination">
+               <reg/>
+            </choice>venir en gr<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>d multitude les fem<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>mes de Thrace que fai<orig>ſ</orig>
+            <reg>s</reg>
+            <m type="desinence">oient </m>les baccha<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>nalles,<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>qu<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t eurent commenc<choice change="signesDiacritiques">
+               <orig>e</orig>
+               <reg>é</reg>
+            </choice>a veoir<lb/>Orpheus.<choice change="lettreRamiste">
+               <orig>V</orig>
+               <reg>U</reg>
+            </choice>ne d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>elles toute e<orig>ſ</orig>
+            <reg>s</reg>che<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>elee<choice change="desagglutination">
+               <reg/>
+            </choice>va<lb/>dire. Vecy le de<orig>ſ</orig>
+            <reg>s</reg>pri<orig>ſ</orig>
+            <reg>s</reg>eur des femmes. Et<lb/>en ce di<orig>ſ</orig>
+            <reg>s</reg>ant lan<choice change="normalisationC">
+               <orig>c</orig>
+               <reg>ç</reg>
+            </choice>a <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>dart, mais pas ne le ble<choice
+               change="normalisationC">
+               <orig>c</orig>
+               <reg>ç</reg>
+            </choice>a car le dart<lb/>fut retenu par le <orig>ſ</orig>
+            <reg>s</reg>on, l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>aultre luy rua en lieu de dart <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>ne gran<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>de pierre, Mais par la doulce melodie du chant cheut celle<lb/>pierre de<choice
+               change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ant les pied<m type="diacritique">z</m>
+            <choice>
+               <corr resp="editor">d’</corr>
+            </choice>Orpheus ainsi c<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>om</expan>
+            </choice>e pour <orig>ſ</orig>
+            <reg>s</reg>e humilier<lb/>
+            <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>mercy prier. A<choice change="desagglutination">
+               <reg/>
+            </choice>donc doubla la forcenerie des faulces fem<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>mes plaines de ire, quant elles virent les pierres re<orig>ſſ</orig>
+            <reg>ss</reg>ortir par<lb/>la doulceur de <orig>ſ</orig>
+            <reg>s</reg>on in<orig>ſ</orig>
+            <reg>s</reg>trument. Lors fir<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t entre elles crieries<lb/>
+            <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>noi<orig>ſ</orig>
+            <reg>s</reg>es <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>onnerent buccines pour amortir <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>amoindrir<lb/>le <choice change="desagglutination">
+               <reg/>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>on de la melodie de <orig>ſ</orig>
+            <reg>s</reg>on harpe, affin que riens ne le ouy<orig>ſ</orig>
+            <reg>s</reg>t, qui <orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>en peu<orig>ſ</orig>
+            <reg>s</reg>t e<orig>ſ</orig>
+            <reg>s</reg>mou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oir t<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t que on ne eu<orig>ſ</orig>
+            <reg>s</reg>t peu ouyr t<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>ner.<lb/>
+         </p>
+
+         <figure type="page_7">
+            <graphic url="morin1532_facsimile_page-0007.jpg"/>
+         </figure>
+         <p>Puis luy getterent e<orig>ſ</orig>
+            <reg>s</reg>pe<orig>ſ</orig>
+            <orig>f</orig>
+            <reg>ss</reg>em<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t pierres qui premieres du <orig>ſ</orig>
+            <reg>s</reg>ang<lb/>du Poete rougir<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t, car de riens ne le deporterent puis que le<lb/>dou<m type="pluriel">lx
+            </m>chant de <orig>ſ</orig>
+            <reg>s</reg>a harpe plus ne ouyrent, ains luy firent du<lb/>pis quelles
+               peurent,<orig>ſ</orig>
+            <reg>s</reg>i<choice change="desagglutination">
+               <reg/>
+            </choice>comme celles qui le hay<m type="desinence">oient </m>mortel<pc
+               type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>lement,<choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>qui a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oient </m>les cueurs plains <choice>
+               <corr resp="editor">de</corr>
+            </choice>dire <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>d<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>enuie. Oy<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>
+            <orig>ſ</orig>
+            <reg>s</reg>eau<m type="pluriel">lx</m>,<orig>ſ</orig>
+            <reg>s</reg>erpens,<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>auluaigine lai<orig>ſſ</orig>
+            <reg>ss</reg>er<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t Orpheus <orig>ſ</orig>
+            <reg>s</reg>eul qui n<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>a<lb/>gueres en<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>iron luy a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit</m>attraist <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>a<orig>ſſ</orig>
+            <reg>ss</reg>embl<choice change="signesDiacritiques">
+               <orig>e</orig>
+               <reg>é</reg>
+            </choice>, Celles qui gre<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>
+            <choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>er le voul<m type="desinence">oient </m>le ra<orig>ſſ</orig>
+            <reg>ss</reg>aillirent <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>abbatirent, Et <orig>ſ</orig>
+            <reg>s</reg>ans mercy<lb/>les de<orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oyees retournerent legierement vers le Poete <choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>qui</expan>
+            </choice>ten<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>d<m type="desinence">oit </m>les bras en criant mercy <orig>ſ</orig>
+            <reg>s</reg>e aulc<choice>
+               <abbr type="contraction">ũ </abbr>
+               <expan>un</expan>
+            </choice>fu<orig>ſ</orig>
+            <reg>s</reg>t qui le ouy<orig>ſ</orig>
+            <reg>s</reg>t, mais<lb/>pour riens qu<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>il di<orig>ſ</orig>
+            <reg>s</reg>t il ne pou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>e<orig>ſ</orig>
+            <reg>s</reg>mou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oir les folles a ce <choice>
+               <abbr type="contraction">q̃</abbr>
+               <expan>que</expan>
+            </choice>
+            <lb/>piti<choice change="signesDiacritiques">
+               <orig>e</orig>
+               <reg>é</reg>
+            </choice>ne mercy eu<orig>ſſ</orig>
+            <reg>ss</reg>ent de luy, ains le meuldrirent <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>tuerent<lb/>a leur grand reproche. Haa dieu par celle bouche ouye,
+            des<lb/>pierres entendue, des cueurs des be<orig>ſ</orig>
+            <reg>s</reg>tes y<orig>ſſ</orig>
+            <reg>ss</reg>it l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>ame du corps.<lb/>Pour luy pleurer<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t les Nymphes <choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>qui</expan>
+            </choice>le congnoi<orig>ſſ</orig>
+            <reg>ss</reg>
+            <m type="desinence">oient</m>. Au<orig>ſſ</orig>
+            <reg>ss</reg>i<lb/>oy<orig>ſ</orig>
+            <reg>s</reg>eaux de<orig>ſ</orig>
+            <reg>s</reg>plumez de leurs plumes, <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>les arbres de leurs<lb/>fueilles fir<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t<orig>ſ</orig>
+            <reg>s</reg>igne de dueil pour l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>amour du poete. Et les fleu<lb/>
+            <choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>es<orig>ſ</orig>
+            <reg>s</reg>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>en doul<m type="desinence">oient</m>,<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>tant pleurerent qu<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>il<m type="diacritique">z</m>en tarir<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>eiche<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>rent en plu<orig>ſ</orig>
+            <reg>s</reg>ieurs lieux. Ses membres furent en di<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ers lieux<lb/>e<orig>ſ</orig>
+            <reg>s</reg>pars. Hebr<choice>
+               <abbr type="signeSpecial">9</abbr>
+               <expan>us</expan>
+            </choice>le fleu<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>e de Thrace receut la te<orig>ſ</orig>
+            <reg>s</reg>te <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>la l<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>gue,<lb/>qui gest<m type="desinence">oit </m>
+            <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n<m type="diacritique">g </m>pleur<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t plainst.<choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>la mer d<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>n<m type="desinence">oit</m>la murmu<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>re en elle plaign<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t di<choice change="desagglutination">
+               <reg/>
+            </choice>celle in<choice change="lettreRamiste">
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>ure, les ri<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ieres du fleu<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>e re<orig>ſ</orig>
+            <reg>s</reg>on<pc type="PONfrt">
+               <choice>
+                  <reg>-</reg>
+               </choice>
+            </pc>
+            <lb/>ner<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t par leurs re<orig>ſ</orig>
+            <reg>s</reg>p<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>s. Le chief <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>la lire floter<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>t tant <choice>
+               <abbr type="contraction">q̃ </abbr>
+               <expan>que</expan>
+            </choice>en par<lb/>fonde mer par<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>indrent. De<orig>ſſ</orig>
+            <reg>ss</reg>us l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>herbe y<orig>ſſ</orig>
+            <reg>ss</reg>it de la ri<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>iere <choice change="lettreRamiste">
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>ne<lb/>mer<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>eilleu<orig>ſ</orig>
+            <reg>s</reg>e <orig>ſ</orig>
+            <reg>s</reg>erp<choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>te,<choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>qui</expan>
+            </choice>trou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>a le chief du di<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>in poete gi<orig>ſ</orig>
+            <reg>s</reg>ant<lb/>a la ri<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>e. Si <orig>ſ</orig>
+            <reg>s</reg>a<orig>ſſ</orig>
+            <reg>ss</reg>i<orig>ſ</orig>
+            <reg>s</reg>t de<orig>ſſ</orig>
+            <reg>ss</reg>us la gueulle bee <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>manger le cuyda,<lb/>mais Phebus <orig>ſ</orig>
+            <reg>s</reg>ans demeur<choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>ce voulut le chief de<orig>ſ</orig>
+            <reg>s</reg>on filz re<orig>ſ</orig>
+            <reg>s</reg>
+            <lb/>courre.<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>ain<orig>ſ</orig>
+            <reg>s</reg>i que la <orig>ſ</orig>
+            <reg>s</reg>erpente le voulut de<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>orer, Phebus la<lb/>mua en dure pierre de telle forme <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>de telle laideur comme<lb/>par de<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ant <orig>ſ</orig>
+            <reg>s</reg>a muance e<orig>ſ</orig>
+            <reg>s</reg>t<m type="desinence">oit</m>. L<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>ame de Orpheus de<orig>ſ</orig>
+            <reg>s</reg>cendit en<lb/>Enfer <orig>ſ</orig>
+            <reg>s</reg>ans demeurance ou il vit la vallee tenebreu<orig>ſ</orig>
+            <reg>s</reg>e <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>les re<lb/>gnes <choice>
+               <abbr type="contraction">q </abbr>
+               <expan>que</expan>
+            </choice>para<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <choice>
+               <abbr type="contraction">ã</abbr>
+               <expan>an</expan>
+            </choice>t a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit </m>veu<m type="diacritique">z</m>. Bi<choice>
+               <abbr type="contraction">ẽ </abbr>
+               <expan>en</expan>
+            </choice>rec<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>on</expan>
+            </choice>gneut les dieux <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>la pi<pc type="marqueCesure">
+               <choice>
+                  <orig>-</orig>
+               </choice>
+            </pc>
+            <lb/>teu<orig>ſ</orig>
+            <reg>s</reg>e c<choice>
+               <abbr type="contraction">õ</abbr>
+               <expan>om</expan>
+            </choice>paignie <choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>qui</expan>
+            </choice>la e<orig>ſ</orig>
+            <reg>s</reg>t<m type="desinence">oit</m>,<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>i y trou<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>a <orig>ſ</orig>
+            <reg>s</reg>on e<orig>ſ</orig>
+            <reg>s</reg>pou<orig>ſ</orig>
+            <reg>s</reg>e <choice>
+               <abbr type="signeSpecial">զ </abbr>
+               <expan>qu</expan>
+            </choice>
+            <choice change="desagglutination">
+               <reg>’</reg>
+            </choice>
+            <choice>
+               <expan>i</expan>
+            </choice>l a<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>
+            <m type="desinence">oit</m>
+            <lb/>
+         </p>
+
+         <figure type="page_8">
+            <graphic url="morin1532_facsimile_page-0008.jpg"/>
+         </figure>
+         <p>de<orig>ſ</orig>
+            <reg>s</reg>iree longuement,<orig>ſ</orig>
+            <reg>s</reg>i l<choice change="desagglutination">
+               <reg>’</reg>
+            </choice>
+            <choice>
+               <abbr type="contraction">ẽ</abbr>
+               <expan>en</expan>
+            </choice>bra<orig>ſſ</orig>
+            <reg>ss</reg>a amiablement,<choice>
+               <abbr type="remplacementET">&amp;</abbr>
+               <expan>et</expan>
+            </choice>la regarda<lb/>
+            <orig>ſ</orig>
+            <reg>s</reg>eur <choice>
+               <abbr type="remplacementET">&amp; </abbr>
+               <expan>et</expan>
+            </choice>
+            <orig>ſ</orig>
+            <reg>s</reg>ans doubte de condition grief<choice change="lettreRamiste">
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>e,<lb/>
+         </p>
+
+      </body>
+   </text>
+</TEI>

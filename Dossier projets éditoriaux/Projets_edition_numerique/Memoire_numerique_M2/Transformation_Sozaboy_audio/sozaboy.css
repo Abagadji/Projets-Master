@@ -1,0 +1,264 @@
+
+.menu {
+    height: auto;
+    list-style: none;
+    padding: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu > li {
+    position: relative;
+    width: 200px;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    background: #293245;
+    padding: 6px 10px;
+    border-right: 1px solid #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #199BD2;
+}
+
+.menu li a:active {
+    background-color: #293245;
+}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #293245;
+}
+
+.menu .sousmenu li {
+    position: relative;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .sousmenu li a:link, .menu .sousmenu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #293245;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+/* Sous-menu de niveau 2 */
+.sousmenu .sousmenu.niveau2 {
+    top: 0;
+    left: 100%;
+}
+
+/* Affiche le sous-menu au survol */
+.menu li:hover > .sousmenu {
+    display: block;
+}
+
+
+.texte_complet {
+  font-family: arial;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+  background-color: #8B4513; /* SaddleBrown */
+	margin-top: 50px; /* pour que le texte_complet soit plus bas que le menu */
+	margin-left : 15%;
+	margin-right : 11%;
+	line-height : 200%;
+
+
+}
+.but{
+    position: fixed;
+    color: chocolate;
+
+}
+
+
+
+button{
+  color: chocolate;
+  background-color: black;
+}
+
+
+/*.texte_complet {
+font-family: arial;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+	background-color: black;
+	margin-left : 30%;
+	margin-right : 0%;
+	line-height : 200%;
+}*/
+
+body {
+  background-color: #556B2F;
+
+  /*font-family : TimesNewRoman;
+	color : white;
+	padding: 4em;
+	text-align : justify;
+	position : relative;
+	border : solid white 3px;
+	background-color: black;
+	margin-left : 30%;
+	margin-right : 5%;*/
+}
+p {
+  text-indent: 1.5em;
+}
+header {
+    text-align: center;
+    border : solid white 1px;
+    padding-top : 1em;
+    padding-bottom : 1em;
+}
+.dédicace{
+text-align:left;
+}
+
+
+
+
+.chap{
+   text-align : center;
+    font-size : 25px;
+    font-weight : bold;
+    color: chocolate; 
+}
+.titre{
+  font-style: italic;
+}
+
+
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    background-color: #556B2F; /* Optionnel : ajoute un fond au footer */
+    margin-top: 20px; /* Ajoute une marge en haut du footer pour le séparer du contenu */
+}
+
+.copyright > div:first-child {
+    margin-bottom: 20px; /* Ajoute de l'espace en dessous du premier div */
+}
+
+.copyright-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espace entre les éléments */
+}
+
+.linkedin-fixed, .github-fixed, .contact-fixed {
+    display: inline-block; /* Permet aux divs de s'afficher en ligne */
+    margin-right: 15px; /* Ajoute de l'espace à droite de chaque div sauf la dernière */
+}
+
+.linkedin-fixed:last-child, .github-fixed:last-child, .contact-fixed:last-child {
+    margin-right: 0; /* Supprime la marge à droite pour le dernier élément */
+}
+
+.linkedin-fixed img, .github-fixed img, .contact-fixed img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 0 2px black);
+    transition: transform 0.2s ease;
+}
+
+.linkedin-fixed img:hover, .github-fixed img:hover, .contact-fixed img:hover {
+    transform: scale(1.2);
+}
+
+#btnScrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  padding: 0px;
+  background-color: rgb(210, 168, 30);
+  color: #FFF;
+  border: none;
+  cursor: n-resize;
+}
+
+.x {
+    opacity: 0;
+}
+
+#btnScrollToTop:hover {
+  background-color: #199BD2;}
+  @media (max-width: 767px) {
+  body {
+    font-size: 16px;
+    hyphens: auto;
+    word-break: break-word;
+    margin: 0;
+    padding: 0;
+  }
+
+  .texte_complet {
+    text-align: left !important; /* Supprime justification */
+    font-size: 16px;
+    padding: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.6;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .menu li {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  p {
+    text-indent: 1em;
+  }
+
+  header {
+    font-size: 18px;
+    padding: 1em 0;
+  }
+
+  #btnScrollToTop {
+    right: 10px;
+    bottom: 10px;
+    padding: 0.5em;
+    border-radius: 50%;
+  }
+
+  #btnScrollToTop img {
+    width: 40px;
+    height: 40px;
+  }
+}
